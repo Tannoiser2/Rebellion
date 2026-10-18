@@ -15,9 +15,9 @@ dest_files=["res://.godot/imported/ob_show_no_fear.jpg-3ae224d3f9290cc03289ad478
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.7
+compress/lossy_quality=0.82
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

@@ -15,9 +15,9 @@ dest_files=["res://.godot/imported/he_means_well.jpg-3ebee6d86b3dad910ed4fc58ba4
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.7
+compress/lossy_quality=0.82
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

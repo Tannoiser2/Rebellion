@@ -37,6 +37,11 @@ static func init_fonts() -> void:
 	font_bold = load("res://assets/fonts/Exo2-SemiBold.woff2")
 	font_italic = load("res://assets/fonts/Exo2-Italic.woff2")
 	font_mono = load("res://assets/fonts/ShareTechMono.woff2")
+	# simboli (●, ▲, ✸, ♪…) che i caratteri del gioco non hanno: nel browser non c'è un font di sistema
+	var sym: Font = load("res://assets/fonts/SimboliDejaVu.ttf")
+	for f in [font_title, font_body, font_bold, font_italic, font_mono]:
+		if f is FontFile and sym != null:
+			(f as FontFile).fallbacks = [sym]
 
 
 static func tex(path: String) -> Texture2D:
