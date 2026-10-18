@@ -34,6 +34,7 @@ func _init() -> void:
 	RB.load_all()
 	cards = RBCards.new(self)
 	combat = RBCombat.new(self)
+	combat_cine = RBCombatCine.new(self)
 
 
 func setup(config: Dictionary) -> void:

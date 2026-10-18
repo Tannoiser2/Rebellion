@@ -16,6 +16,9 @@ func decide(engine: RBEngine, f: String, req: Dictionary):
 	e = engine
 	st = engine.st
 	var k: String = req.get("k", "choice")
+	# alcune richieste portano già la scelta consigliata (calcolata da chi chiede, es. combattimento cinematografico)
+	if req.has("ai_best"):
+		return req["ai_best"]
 	match k:
 		"choice":
 			return _choice(f, req)
@@ -305,6 +308,9 @@ func _assign_choice(f: String, opts: Array):
 	var reserve := 1 if total >= 4 else 0
 	if level >= 1:
 		reserve = 2 if total >= 6 else (1 if total >= 3 else 0)
+		# l'Impero deve dare la caccia alla base: tiene più leader per attivare sistemi
+		if f == "I" and not st.base_revealed:
+			reserve = max(reserve, 3 if total >= 5 else (2 if total >= 3 else 1))
 	# tieni nella riserva i leader con i valori tattici migliori
 	var tactical := 0
 	for n in pool:
@@ -607,20 +613,50 @@ func _plan_activation(f: String) -> Dictionary:
 		var enemy := power_at(t, o)
 		var total := my_power + here_mine
 		var score := 0.0
+		var known_base: bool = f == "I" and possible.size() == 1 and t == possible[0]
+		if f == "I" and st.base_revealed and t == st.base:
+			known_base = true
 		if enemy > 0.0:
 			var ratio: float = total / maxf(enemy, 0.5)
-			if ratio < 1.3:
+			if ratio < (1.0 if known_base else 1.3):
+				# la base nota ma ancora troppo difesa: avvicinare le forze senza attaccare
 				continue
 			score = 2.0 + min(enemy, 6.0) * 0.6
-			if f == "I" and st.base_revealed and t == st.base:
+			if known_base:
 				score += 12.0
 		else:
 			# spostamenti senza combattimento
 			if f == "I":
-				if t in possible and my_ground > 0.0 and not st.base_revealed:
-					score = 3.5 + 3.0 / max(1.0, float(possible.size()))
-				elif st.is_populous(t) and not st.is_imperial_sys(t) and my_ground > 0.0:
-					score = 1.6
+				# truppe trasportabili davvero (le unità terrestri viaggiano solo sulle navi)
+				var landable := _landable_ground(f, srcs)
+				var near := 0
+				for x in RB.SYS[t]["adiacenti"]:
+					if x in possible:
+						near += 1
+				if t in possible and landable > 0 and not st.base_revealed:
+					score = 4.2 + 4.0 / max(1.0, float(possible.size()))
+				elif st.is_populous(t) and not st.is_imperial_sys(t) and landable > 0:
+					score = 1.8 + (0.6 if st.is_rebel_sys(t) else 0.0) + 0.25 * near
+				elif not st.base_revealed and near > 0 and my_ships > 0.0 and not t in possible:
+					# avvicinarsi ai sistemi dove la base potrebbe essere
+					score = 1.1 + 0.35 * near
+				# pochi sistemi possibili (o base rivelata): avvicinare il grosso della flotta
+				if possible.size() <= 3 or st.base_revealed:
+					var goals: Array = [st.base] if st.base_revealed else possible
+					var dmin := 99
+					for b in goals:
+						dmin = min(dmin, RB.dist(t, b))
+					var src_d := 99
+					for x in srcs:
+						if x == "BASE":
+							continue
+						for b in goals:
+							src_d = min(src_d, RB.dist(x, b))
+					if dmin < src_d:
+						var hunt := 2.6 + 2.0 / float(max(1, dmin)) + 0.15 * minf(my_power, 12.0)
+						if dmin == 0 and landable == 0:
+							hunt -= 2.0
+						score = maxf(score, hunt)
 			else:
 				if st.is_populous(t) and st.is_subjugated(t) == false and not st.has_units(t, "R") and st.is_rebel_sys(t):
 					score = 0.6
@@ -642,6 +678,22 @@ func _plan_activation(f: String) -> Dictionary:
 			bl = n
 	best["leader"] = bl
 	return best
+
+
+## Unità terrestri imperiali che le navi delle sorgenti possono portare in un sistema.
+func _landable_ground(f: String, srcs: Array) -> int:
+	var n := 0
+	for s in srcs:
+		var ships := []
+		var ground := 0
+		for id in _movable(f, s):
+			var t: String = st.units[id]["t"]
+			if RB.is_ground(t):
+				ground += 1
+			elif RB.is_ship(t) and not st.needs_transport(id):
+				ships.append(id)
+		n += min(ground, st.transport_capacity(ships))
+	return n
 
 
 func _skill_sum(n: String) -> float:
@@ -1035,6 +1087,12 @@ func _move(f: String, req: Dictionary) -> Array:
 			by_src[sl] = []
 		by_src[sl].append(id)
 	var enemy := power_at(target, o) if target != "BASE" else 0.0
+	# caccia alla base: basta un distaccamento (una nave che trasporta truppe), il resto della
+	# flotta resta libero per altre attivazioni
+	if f == "I" and ctx == "activate_move" and enemy <= 0.0 and not st.base_revealed and level >= 1 and target in possible_bases() and possible_bases().size() > 3:
+		var det := _detachment(by_src)
+		if not det.is_empty():
+			return det
 	var out := []
 	for s in by_src:
 		var ids: Array = by_src[s]
@@ -1073,6 +1131,36 @@ func _move(f: String, req: Dictionary) -> Array:
 	if ctx == "activate_move" and enemy > 0.0 and power(out) + power_at(target, f) < enemy * 1.1 and level >= 1:
 		return []
 	return out
+
+
+## La nave con più capacità di trasporto e le unità terrestri che porta (preferendo le più deboli).
+func _detachment(by_src: Dictionary) -> Array:
+	var best := []
+	var best_v := 0.0
+	for s in by_src:
+		var ships := []
+		var ground := []
+		for id in by_src[s]:
+			var t: String = st.units[id]["t"]
+			if RB.is_ground(t):
+				ground.append(id)
+			elif RB.is_ship(t) and not st.needs_transport(id) and int(RB.UNITS[t]["trasporto"]) > 0:
+				ships.append(id)
+		if ships.is_empty() or ground.is_empty():
+			continue
+		ships.sort_custom(func(a, b): return int(RB.UNITS[st.units[a]["t"]]["trasporto"]) > int(RB.UNITS[st.units[b]["t"]]["trasporto"]))
+		var ship: int = ships[0]
+		var cap := int(RB.UNITS[st.units[ship]["t"]]["trasporto"])
+		ground.sort_custom(func(a, b): return RB.health(st.units[a]["t"]) < RB.health(st.units[b]["t"]))
+		# lasciare almeno un'unità terrestre nei sistemi imperiali
+		if st.is_imperial_sys(s) and ground.size() <= 1:
+			continue
+		var take := ground.slice(0, min(cap, 2))
+		var v := float(take.size()) + 0.1 * cap
+		if v > best_v:
+			best_v = v
+			best = [ship] + take
+	return best
 
 
 # ================================================================== combattimento

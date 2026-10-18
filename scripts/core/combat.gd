@@ -115,6 +115,8 @@ func resolve(s: String, attacker: String, from_sources: Array) -> void:
 		await _retreat_step()
 		if e._over():
 			break
+		if c["cinematic"] and e.combat_cine != null:
+			await e.combat_cine.after_retreat(self)
 		if not (_both("spazio") or _both("terra")):
 			break
 		if c["round"] > 30:

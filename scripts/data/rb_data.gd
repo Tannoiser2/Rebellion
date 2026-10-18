@@ -66,8 +66,13 @@ static func load_all() -> void:
 	SYS = m["sistemi"]
 	UNITS = m["unita"]
 	LEADERS = m["leader"]
-	RECRUIT = m["reclutamento"]
-	BUILD = m["costruzione"]
+	# i numeri del JSON arrivano come decimali: «2 in [2.0]» sarebbe falso
+	RECRUIT = []
+	for x in m["reclutamento"]:
+		RECRUIT.append(int(x))
+	BUILD = []
+	for x in m["costruzione"]:
+		BUILD.append(int(x))
 	for c in _json("res://assets/data/carte.json"):
 		CARDS[c["id"]] = c
 	for p in _json("res://assets/data/sonde.json"):

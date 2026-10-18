@@ -1947,8 +1947,9 @@ func _rapid_mobilization(nl: int) -> void:
 			if st.leaders[n]["st"] == "board" and st.leaders[n]["loc"] == "BASE":
 				st.leaders[n]["loc"] = old
 		st.probes.append(old)
-		if not old in st.known["I_not_base"]:
-			st.known["I_not_base"].append(old)
+		# la nuova base viene dal mazzo delle sonde: l'Impero sa solo che non è nei sistemi
+		# delle sonde che ha visto (gli sbarchi precedenti non valgono più)
+		st.known["I_not_base"] = st.probes.duplicate()
 		st.base = nb
 		st.base_revealed = false
 		st.flags.erase("base_known")
