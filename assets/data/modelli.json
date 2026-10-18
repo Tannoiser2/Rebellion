@@ -1,0 +1,132 @@
+{
+ "Assault Tank": {
+  "mesh": "res://assets/models/assault_tank.obj",
+  "tex": "res://assets/models/assault_tank.jpg",
+  "scala_tts": 0.13
+ },
+ "Stormtrooper": {
+  "mesh": "res://assets/models/stormtrooper.obj",
+  "tex": "res://assets/models/stormtrooper.jpg",
+  "scala_tts": 0.45
+ },
+ "AT-ST": {
+  "mesh": "res://assets/models/at_st.obj",
+  "tex": "res://assets/models/at_st.jpg",
+  "scala_tts": 0.08
+ },
+ "AT-AT": {
+  "mesh": "res://assets/models/at_at.obj",
+  "tex": "res://assets/models/at_at.jpg",
+  "scala_tts": 0.11
+ },
+ "TIE Fighter": {
+  "mesh": "res://assets/models/tie_fighter.obj",
+  "tex": "res://assets/models/tie_fighter.jpg",
+  "scala_tts": 0.2
+ },
+ "Assault Carrier": {
+  "mesh": "res://assets/models/assault_carrier.obj",
+  "tex": "res://assets/models/assault_carrier.jpg",
+  "scala_tts": 0.06
+ },
+ "Star Destroyer": {
+  "mesh": "res://assets/models/star_destroyer.obj",
+  "tex": "res://assets/models/star_destroyer.jpg",
+  "scala_tts": 0.09
+ },
+ "Super Star Destroyer": {
+  "mesh": "res://assets/models/super_star_destroyer.obj",
+  "tex": "res://assets/models/super_star_destroyer.jpg",
+  "scala_tts": 0.2
+ },
+ "Death Star Under Construction": {
+  "mesh": "res://assets/models/death_star_under_construction.obj",
+  "tex": "res://assets/models/death_star_under_construction.jpg",
+  "scala_tts": 0.01
+ },
+ "Death Star": {
+  "mesh": "res://assets/models/death_star.obj",
+  "tex": "res://assets/models/death_star.jpg",
+  "scala_tts": 0.09
+ },
+ "Interdictor": {
+  "mesh": "res://assets/models/interdictor.obj",
+  "tex": "res://assets/models/interdictor.jpg",
+  "scala_tts": 0.2
+ },
+ "TIE Striker": {
+  "mesh": "res://assets/models/tie_striker.obj",
+  "tex": "res://assets/models/tie_striker.jpg",
+  "scala_tts": 0.2
+ },
+ "Shield Bunker": {
+  "mesh": "res://assets/models/shield_bunker.obj",
+  "tex": "res://assets/models/shield_bunker.jpg",
+  "scala_tts": 0.03
+ },
+ "Mon Cala Cruiser": {
+  "mesh": "res://assets/models/mon_cala_cruiser.obj",
+  "tex": "res://assets/models/mon_cala_cruiser.jpg",
+  "scala_tts": 0.33
+ },
+ "Corellian Corvette": {
+  "mesh": "res://assets/models/corellian_corvette.obj",
+  "tex": "res://assets/models/corellian_corvette.jpg",
+  "scala_tts": 0.06
+ },
+ "Nebulon-B Frigate": {
+  "mesh": "res://assets/models/nebulon_b_frigate.obj",
+  "tex": "res://assets/models/nebulon_b_frigate.jpg",
+  "scala_tts": 0.3
+ },
+ "Y-Wing": {
+  "mesh": "res://assets/models/y_wing.obj",
+  "tex": "res://assets/models/y_wing.jpg",
+  "scala_tts": 0.22
+ },
+ "U-Wing": {
+  "mesh": "res://assets/models/u_wing.obj",
+  "tex": "res://assets/models/u_wing.jpg",
+  "scala_tts": 0.15
+ },
+ "Ion Cannon": {
+  "mesh": "res://assets/models/ion_cannon.obj",
+  "tex": "res://assets/models/ion_cannon.jpg",
+  "scala_tts": 0.5
+ },
+ "Airspeeder": {
+  "mesh": "res://assets/models/airspeeder.obj",
+  "tex": "res://assets/models/airspeeder.jpg",
+  "scala_tts": 0.14
+ },
+ "Rebel Trooper": {
+  "mesh": "res://assets/models/rebel_trooper.obj",
+  "tex": "res://assets/models/rebel_trooper.jpg",
+  "scala_tts": 0.45
+ },
+ "Rebel Vanguard": {
+  "mesh": "res://assets/models/rebel_vanguard.obj",
+  "tex": "res://assets/models/rebel_vanguard.jpg",
+  "scala_tts": 0.45
+ },
+ "Golan Arms Turret": {
+  "mesh": "res://assets/models/golan_arms_turret.obj",
+  "tex": "res://assets/models/golan_arms_turret.jpg",
+  "scala_tts": 1.0
+ },
+ "X-Wing": {
+  "mesh": "res://assets/models/x_wing.obj",
+  "tex": "res://assets/models/x_wing.jpg",
+  "scala_tts": 0.22
+ },
+ "Shield Generator": {
+  "mesh": "res://assets/models/shield_generator.obj",
+  "tex": "res://assets/models/shield_generator.jpg",
+  "scala_tts": 0.35
+ },
+ "Rebel Transport": {
+  "mesh": "res://assets/models/rebel_transport.obj",
+  "tex": "res://assets/models/rebel_transport.jpg",
+  "scala_tts": 0.3
+ }
+}

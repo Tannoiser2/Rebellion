@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://jwgcyu06loac"
+path="res://.godot/imported/mon_cala_cruiser.obj-5141337817f5845ee13b3142ff5a370f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/mon_cala_cruiser.obj-5141337817f5845ee13b3142ff5a370f.mesh"]
+
+source_file="res://assets/models/mon_cala_cruiser.obj"
+dest_files=["res://.godot/imported/mon_cala_cruiser.obj-5141337817f5845ee13b3142ff5a370f.mesh", "res://.godot/imported/mon_cala_cruiser.obj-5141337817f5845ee13b3142ff5a370f.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

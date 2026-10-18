@@ -1,0 +1,518 @@
+[
+ {
+  "crop": "Carte_Azione_-_Imperiali_-_Iniziali_00.png",
+  "tts": "ActionCard_imp_base_according_to_my_design.jpg",
+  "name_en": "ACCORDING TO MY DESIGN",
+  "name_it": "SECONDO I MIEI PIANI",
+  "text_en": "For each battle during the first combat round, the Rebel player rolls 1 fewer red die and 2 fewer black dice.",
+  "text_it": "Durante ogni battaglia del primo round di combattimento, il giocatore Ribelle tira 1 dado rosso e 2 dadi neri in meno.",
+  "faction": "imp",
+  "starting": true,
+  "timing_it": "Inizio del Combattimento",
+  "timing_en": "Start of Combat",
+  "leaders": [
+   "Emperor Palpatine"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_-_Iniziali_01.png",
+  "tts": "ActionCard_imp_base_brilliant_administrator.jpg",
+  "name_en": "BRILLIANT ADMINISTRATOR",
+  "name_it": "AMMINISTRATORE EFFICIENTE",
+  "text_en": "Place this leader in any Imperial system. Then place units on the build queue using this system's resource icons and number.",
+  "text_it": "Colloca questo leader in un sistema Imperiale, poi colloca unità nella coda di costruzione usando il numero e le icone risorsa di questo sistema.",
+  "faction": "imp",
+  "starting": true,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "Grand Moff Tarkin"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_-_Iniziali_02.png",
+  "tts": "ActionCard_imp_base_more_dangerous_than_you_realize.jpg",
+  "name_en": "MORE DANGEROUS THAN YOU REALIZE",
+  "name_it": "PIÙ PERICOLOSA DI QUANTO CREDIATE",
+  "text_en": "Draw either 3 space tactic cards or 3 ground tactic cards.",
+  "text_it": "Scegli se pescare 3 carte tattica spaziale o 3 carte tattica terrestre.",
+  "faction": "imp",
+  "starting": true,
+  "timing_it": "Inizio del Combattimento",
+  "timing_en": "Start of Combat",
+  "leaders": [
+   "General Tagge"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_-_Iniziali_03.png",
+  "tts": "ActionCard_imp_base_it_is_your_destiny.jpg",
+  "name_en": "IT IS YOUR DESTINY",
+  "name_it": "È IL TUO DESTINO",
+  "text_en": "Use during a mission after a leader is rescued. Capture 1 leader who attempted this mission.",
+  "text_it": "Usa questa carta durante una missione, dopo che un leader è stato liberato. Cattura 1 leader che ha tentato questa missione.",
+  "faction": "imp",
+  "starting": true,
+  "timing_it": "Speciale",
+  "timing_en": "Special",
+  "leaders": [
+   "Darth Vader"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_00.png",
+  "tts": "ActionCard_imp_base_scouting_mission.jpg",
+  "name_en": "SCOUTING MISSION",
+  "name_it": "MISSIONE ESPLORATIVA",
+  "text_en": "Place this leader in any system. Then move up to 4 TIE Fighters from any system(s) to this system, ignoring transport restrictions and adjacency. If there are Rebel ships in this system, resolve a combat.",
+  "text_it": "Colloca questo leader in un sistema, poi muovi fino a 4 Caccia TIE da uno o più sistemi fino a questo sistema, ignorando le restrizioni di trasporto e di adiacenza. Se questo sistema contiene unità navali Ribelli, risolvi un combattimento.",
+  "faction": "imp",
+  "starting": false,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "Soontir Fel"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_01.png",
+  "tts": "ActionCard_imp_base_target_the_generator.jpg",
+  "name_en": "TARGET THE GENERATOR",
+  "name_it": "BERSAGLIARE IL GENERATORE",
+  "text_en": "Destroy 1 structure of your choice in this system.",
+  "text_it": "Distruggi 1 struttura a tua scelta in questo sistema.",
+  "faction": "imp",
+  "starting": false,
+  "timing_it": "Inizio del Combattimento",
+  "timing_en": "Start of Combat",
+  "leaders": [
+   "General Veers"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_02.png",
+  "tts": "ActionCard_imp_base_fully_operational.jpg",
+  "name_en": "FULLY OPERATIONAL",
+  "name_it": "PERFETTAMENTE ATTREZZATA",
+  "text_en": "If either a Death Star or Death Star Under Construction is in this system, destroy 1 Rebel ship of your choice in the system.",
+  "text_it": "Se questo sistema contiene una Morte Nera o una Morte Nera in Costruzione, distruggi 1 unità navale Ribelle a tua scelta nel sistema.",
+  "faction": "imp",
+  "starting": false,
+  "timing_it": "Inizio del Combattimento",
+  "timing_en": "Start of Combat",
+  "leaders": [
+   "Moff Jerjerrod"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_03.png",
+  "tts": "ActionCard_imp_base_blindside.jpg",
+  "name_en": "BLINDSIDE",
+  "name_it": "INTERVENTO FULMINEO",
+  "text_en": "Use before revealing this leader's mission. Your opponent cannot send leaders from his leader pool to oppose this mission.",
+  "text_it": "Usa questa carta prima di rivelare la missione di questo leader. Il tuo avversario non può inviare i leader nella sua riserva a contrastare questa missione.",
+  "faction": "imp",
+  "starting": false,
+  "timing_it": "Speciale",
+  "timing_en": "Special",
+  "leaders": [
+   "Janus Greejatus",
+   "Boba Fett"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_04.png",
+  "tts": "ActionCard_imp_base_public_support.jpg",
+  "name_en": "PUBLIC SUPPORT",
+  "name_it": "SUPPORTO PUBBLICO",
+  "text_en": "Place this leader in any Imperial system that does not contain a Rebel ground unit. Gain 3 Stormtroopers in the system. This leader does not prevent you from moving units out of this system this round.",
+  "text_it": "Colloca questo leader in un sistema Imperiale che non contenga unità terrestri Ribelli. Ottieni 3 Assaltatori nel sistema. Questo leader non ti impedisce di muovere le unità da questo sistema in questo round.",
+  "faction": "imp",
+  "starting": false,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "Janus Greejatus"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_05.png",
+  "tts": "ActionCard_imp_base_boba_fett_where.jpg",
+  "name_en": "BOBA FETT? WHERE?",
+  "name_it": "BOBA FETT? DOVE?",
+  "text_en": "Place this leader in any Imperial system. During the next Command Phase, Rebel leaders cannot attempt missions in this system or use action cards in this system.",
+  "text_it": "Colloca questo leader in un sistema Imperiale. Durante la prossima Fase di Comando, i leader Ribelli non possono tentare missioni in questo sistema o usare carte azione in questo sistema.",
+  "faction": "imp",
+  "starting": false,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "Boba Fett"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_06.png",
+  "tts": "ActionCard_imp_base_proceeding_as_planned.jpg",
+  "name_en": "PROCEEDING AS PLANNED",
+  "name_it": "TUTTO QUANTO PROCEDE COME AVEVO PREVISTO",
+  "text_en": "Search the project deck for 1 card of your choice and assign this leader to that mission. Then shuffle your project deck.",
+  "text_it": "Cerca 1 carta a tua scelta nel mazzo dei progetti e assegna questo leader a quella missione, poi rimescola il mazzo dei progetti.",
+  "faction": "imp",
+  "starting": false,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "Admiral Ozzel",
+   "Moff Jerjerrod"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_07.png",
+  "tts": "ActionCard_imp_base_catch_them_by_surprise.jpg",
+  "name_en": "CATCH THEM BY SURPRISE",
+  "name_it": "COGLIERLI DI SORPRESA",
+  "text_en": "Place this leader in any system. Then move Imperial units from adjacent systems to this system. If there are Rebel units in this system, resolve a combat.",
+  "text_it": "Colloca questo leader in un sistema, poi muovi unità Imperiali dai sistemi adiacenti a questo sistema. Se questo sistema contiene unità Ribelli nello stesso scenario, risolvi un combattimento.",
+  "faction": "imp",
+  "starting": false,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "Admiral Ozzel"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_08.png",
+  "tts": "ActionCard_imp_base_ready_for_action.jpg",
+  "name_en": "READY FOR ACTION",
+  "name_it": "PRONTO ALL'AZIONE",
+  "text_en": "Take this leader from your leader pool and place him in this system. This leader cannot retreat, and he returns to your leader pool at the end of the combat.",
+  "text_it": "Prendi questo leader dalla tua riserva e collocalo in questo sistema. Questo leader non può ritirarsi e ritorna nella tua riserva alla fine del combattimento.",
+  "faction": "imp",
+  "starting": false,
+  "timing_it": "Inizio del Combattimento",
+  "timing_en": "Start of Combat",
+  "leaders": [
+   "Admiral Piett",
+   "General Veers"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_09.png",
+  "tts": "ActionCard_imp_base_good_intel.jpg",
+  "name_en": "GOOD INTEL",
+  "name_it": "INFORMAZIONI VALIDE",
+  "text_en": "The Rebel player must keep his hand of tactic cards faceup.",
+  "text_it": "Il giocatore Ribelle deve tenere la sua mano di carte tattica a faccia in su.",
+  "faction": "imp",
+  "starting": false,
+  "timing_it": "Inizio del Combattimento",
+  "timing_en": "Start of Combat",
+  "leaders": [
+   "Soontir Fel",
+   "Colonel Yularen"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_10.png",
+  "tts": "ActionCard_imp_base_local_rumors.jpg",
+  "name_en": "LOCAL RUMORS",
+  "name_it": "DICERIE LOCALI",
+  "text_en": "Place this leader in any system that contains an Imperial unit. The Rebel player must state whether the Rebel base is in this region.",
+  "text_it": "Colloca questo leader in un sistema che contenga unità Imperiali. Il giocatore Ribelle deve dichiarare se la base Ribelle si trova in questa regione.",
+  "faction": "imp",
+  "starting": false,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "Colonel Yularen"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Imperiali_11.png",
+  "tts": "ActionCard_imp_base_keep_them_from_escaping.jpg",
+  "name_en": "KEEP THEM FROM ESCAPING",
+  "name_it": "IMPEDIRE LORO DI FUGGIRE",
+  "text_en": "Rebel units cannot retreat.",
+  "text_it": "Le unità Ribelli non possono ritirarsi.",
+  "faction": "imp",
+  "starting": false,
+  "timing_it": "Inizio del Combattimento",
+  "timing_en": "Start of Combat",
+  "leaders": [
+   "Admiral Piett"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_-_Iniziali_00.png",
+  "tts": "ActionCard_reb_base_our_most_desperate_hour.jpg",
+  "name_en": "OUR MOST DESPERATE HOUR",
+  "name_it": "LA NOSTRA ORA PIÙ DISPERATA",
+  "text_en": "Search your mission deck for 1 card of your choice and assign this leader to that mission. Then shuffle your mission deck.",
+  "text_it": "Cerca 1 carta a tua scelta nel tuo mazzo delle missioni e assegna questo leader a quella missione, poi rimescola il tuo mazzo delle missioni.",
+  "faction": "reb",
+  "starting": true,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "Princess Leia"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_-_Iniziali_01.png",
+  "tts": "ActionCard_reb_base_human_cyborg_relations.jpg",
+  "name_en": "HUMAN-CYBORG RELATIONS",
+  "name_it": "RELAZIONI UMANE-CYBORG",
+  "text_en": "Attach the C-3PO ring to any leader.\nWhen you fail a diplomacy ([diplomazia]) mission in C-3PO's system, discard this ring to make the mission succeed instead.",
+  "text_it": "Aggiungi l'anello C-3PO a un leader.\nQuando fallisci una missione di diplomazia ([diplomazia]) nel sistema in cui è presente C-3PO, scarta questo anello per avere invece successo.",
+  "faction": "reb",
+  "starting": true,
+  "timing_it": "Immediata",
+  "timing_en": "Immediate",
+  "leaders": [],
+  "ring": "C-3PO"
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_-_Iniziali_02.png",
+  "tts": "ActionCard_reb_base_rebel_planning.jpg",
+  "name_en": "REBEL PLANNING",
+  "name_it": "PIANIFICAZIONE RIBELLE",
+  "text_en": "Place this leader in the \"Rebel Base\" space. Then draw 1 objective card.",
+  "text_it": "Colloca questo leader nella casella \"Base Ribelle\", poi pesca 1 carta obiettivo.",
+  "faction": "reb",
+  "starting": true,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "Jan Dodonna"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_-_Iniziali_03.png",
+  "tts": "ActionCard_reb_base_start_the_evacuation.jpg",
+  "name_en": "START THE EVACUATION",
+  "name_it": "INIZIARE L'EVACUAZIONE",
+  "text_en": "Place this leader in any system that does not contain Imperial units. Then move any of your units from the \"Rebel Base\" space to this system as if they were adjacent.",
+  "text_it": "Colloca questo leader in un sistema che non contenga unità Imperiali, poi muovi unità dalla casella \"Base Ribelle\" fino a questo sistema, ignorando le restrizioni di trasporto e di adiacenza.",
+  "faction": "reb",
+  "starting": true,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "General Rieekan"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_-_Iniziali_04.png",
+  "tts": "ActionCard_reb_base_resourceful_astromech.jpg",
+  "name_en": "RESOURCEFUL ASTROMECH",
+  "name_it": "ASTROMECCANICO INGEGNOSO",
+  "text_en": "Attach the R2-D2 ring to any leader.\nAfter your opponent rolls dice during a mission in R2-D2's system, discard this ring to turn 1 of your opponent's dice to its blank side.",
+  "text_it": "Aggiungi l'anello R2-D2 a un leader.\nDopo che il tuo avversario ha tirato i dadi durante una missione nel sistema in cui è presente R2-D2, scarta questo anello per girare 1 dado del tuo avversario sul lato vuoto.",
+  "faction": "reb",
+  "starting": true,
+  "timing_it": "Immediata",
+  "timing_en": "Immediate",
+  "leaders": [],
+  "ring": "R2-D2"
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_-_Iniziali_05.png",
+  "tts": "ActionCard_reb_base_temporary_alliance.jpg",
+  "name_en": "TEMPORARY ALLIANCE",
+  "name_it": "ALLEANZA TEMPORANEA",
+  "text_en": "Place this leader in any neutral system. Then place units on the build queue using this system's resource icons and number.",
+  "text_it": "Colloca questo leader in un sistema neutrale, poi colloca unità nella coda di costruzione usando il numero e le icone risorsa di questo sistema.",
+  "faction": "reb",
+  "starting": true,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "Mon Mothma"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_00.png",
+  "tts": "ActionCard_reb_base_son_of_skywalker.jpg",
+  "name_en": "SON OF SKYWALKER",
+  "name_it": "FIGLIO DI SKYWALKER",
+  "text_en": "After you succeed at a mission in this leader's system, search your mission deck for the \"Seek Yoda\" or \"Daring Rescue\" card and place it in your hand. Then shuffle your mission deck.",
+  "text_it": "Dopo che hai risolto con successo una missione nel sistema in cui è presente questo leader, cerca 1 carta tra Alla Ricerca di Yoda o Salvataggio Temerario nel tuo mazzo delle missioni e collocala nella tua mano, poi rimescola il tuo mazzo delle missioni.",
+  "faction": "reb",
+  "starting": false,
+  "timing_it": "Speciale",
+  "timing_en": "Special",
+  "leaders": [
+   "Luke Skywalker"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_01.png",
+  "tts": "ActionCard_reb_base_target_the_star_destroyers.jpg",
+  "name_en": "TARGET THE STAR DESTROYERS",
+  "name_it": "BERSAGLIARE GLI STAR DESTROYER",
+  "text_en": "During the space battle of each combat round, treat up to 2 of your black [dado] as red [dado].",
+  "text_it": "Durante ogni battaglia spaziale del combattimento, considera fino a 2 tuoi [dado] neri come se fossero [dado] rossi.",
+  "faction": "reb",
+  "starting": false,
+  "timing_it": "Inizio del Combattimento",
+  "timing_en": "Start of Combat",
+  "leaders": [
+   "Wedge Antilles"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_02.png",
+  "tts": "ActionCard_reb_base_wookiee_guardian.jpg",
+  "name_en": "WOOKIEE GUARDIAN",
+  "name_it": "GUARDIANO WOOKIEE",
+  "text_en": "Use when your opponent attempts a spec ops ([opspec]) mission, before rolling dice. The mission automatically fails.",
+  "text_it": "Usa questa carta quando il tuo avversario tenta una missione di operazione ([opspec]), prima di tirare i dadi. La missione fallisce automaticamente.",
+  "faction": "reb",
+  "starting": false,
+  "timing_it": "Speciale",
+  "timing_en": "Special",
+  "leaders": [
+   "Chewbacca"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_03.png",
+  "tts": "ActionCard_reb_base_an_old_friend.jpg",
+  "name_en": "AN OLD FRIEND",
+  "name_it": "UN VECCHIO AMICO",
+  "text_en": "Place this leader in either the Bespin system to recruit Lando Calrissian or in the Kashyyyk system to recruit Chewbacca. Place the recruited leader in Han Solo's system.",
+  "text_it": "Colloca questo leader nel sistema Bespin per reclutare Lando Calrissian o nel sistema Kashyyyk per reclutare Chewbacca. Colloca il leader reclutato nel sistema in cui è presente Han Solo.",
+  "faction": "reb",
+  "starting": false,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "Han Solo"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_04.png",
+  "tts": "ActionCard_reb_base_the_millennium_falcon.jpg",
+  "name_en": "THE MILLENNIUM FALCON",
+  "name_it": "MILLENNIUM FALCON",
+  "text_en": "Attach the Millennium Falcon ring to this leader.\nAfter you succeed at a mission in the Millennium Falcon's system, discard this ring to rescue 1 captured leader in this system.",
+  "text_it": "Aggiungi l'anello Millennium Falcon a questo leader.\nDopo che hai risolto con successo una missione nel sistema in cui è presente il Millennium Falcon, scarta questo anello per liberare 1 leader catturato in questo sistema.",
+  "faction": "reb",
+  "starting": false,
+  "timing_it": "Immediata",
+  "timing_en": "Immediate",
+  "leaders": [
+   "Han Solo",
+   "Chewbacca"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_05.png",
+  "tts": "ActionCard_reb_base_undercover.jpg",
+  "name_en": "UNDERCOVER",
+  "name_it": "SOTTO COPERTURA",
+  "text_en": "Use when your opponent attempts a mission, before rolling dice. Move this leader from any system to the mission's system.",
+  "text_it": "Usa questa carta quando il tuo avversario tenta una missione, prima di tirare i dadi. Muovi questo leader da un sistema fino al sistema della missione.",
+  "faction": "reb",
+  "starting": false,
+  "timing_it": "Speciale",
+  "timing_en": "Special",
+  "leaders": [
+   "Lando Calrissian",
+   "Obi-Wan Kenobi"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_06.png",
+  "tts": "ActionCard_reb_base_it_s_a_trap.jpg",
+  "name_en": "IT'S A TRAP",
+  "name_it": "È UNA TRAPPOLA",
+  "text_en": "During the first round of combat, your opponent cannot play space tactic cards.",
+  "text_it": "Durante il primo round di combattimento, il tuo avversario non può giocare carte tattica spaziale.",
+  "faction": "reb",
+  "starting": false,
+  "timing_it": "Inizio del Combattimento",
+  "timing_en": "Start of Combat",
+  "leaders": [
+   "Admiral Ackbar"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_07.png",
+  "tts": "ActionCard_reb_base_noble_sacrifice.jpg",
+  "name_en": "NOBLE SACRIFICE",
+  "name_it": "NOBILE SACRIFICIO",
+  "text_en": "Use when this leader becomes captured. He is eliminated, and you gain 1 reputation.",
+  "text_it": "Usa questa carta quando questo leader viene catturato. Questo leader è eliminato e ottieni 1 reputazione.",
+  "faction": "reb",
+  "starting": false,
+  "timing_it": "Speciale",
+  "timing_en": "Special",
+  "leaders": [
+   "Obi-Wan Kenobi"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_08.png",
+  "tts": "ActionCard_reb_base_independent_operation.jpg",
+  "name_en": "INDEPENDENT OPERATION",
+  "name_it": "OPERAZIONE INDIPENDENTE",
+  "text_en": "Place this leader in any subjugated system. The Imperial player must move all his ground units from this system to any 1 Imperial system of his choice, ignoring adjacency and transport capacity.",
+  "text_it": "Colloca questo leader in un sistema sottomesso. Il giocatore Imperiale deve muovere tutte le sue unità terrestri da questo sistema fino a un singolo sistema Imperiale a sua scelta, ignorando le restrizioni di trasporto e di adiacenza.",
+  "faction": "reb",
+  "starting": false,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "Lando Calrissian"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_09.png",
+  "tts": "ActionCard_reb_base_one_in_a_million.jpg",
+  "name_en": "ONE IN A MILLION",
+  "name_it": "COLPO DA MAESTRO",
+  "text_en": "Use during either a combat or a mission. Instead of rolling up to 2 of your dice, place them on the table showing the results of your choice.",
+  "text_it": "Usa questa carta durante un combattimento o una missione. Scegli il risultato di un massimo di 2 tuoi dadi invece di tirarli.",
+  "faction": "reb",
+  "starting": false,
+  "timing_it": "Speciale",
+  "timing_en": "Special",
+  "leaders": [
+   "Wedge Antilles",
+   "Luke Skywalker"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_10.png",
+  "tts": "ActionCard_reb_base_point_blank_assault.jpg",
+  "name_en": "POINT-BLANK ASSAULT",
+  "name_it": "ASSALTO RAVVICINATO",
+  "text_en": "All units in this system have -1 health, to a minimum of 1.",
+  "text_it": "Tutte le unità in questo sistema hanno -1 salute (minimo 1).",
+  "faction": "reb",
+  "starting": false,
+  "timing_it": "Inizio del Combattimento",
+  "timing_en": "Start of Combat",
+  "leaders": [
+   "Admiral Ackbar",
+   "General Madine"
+  ]
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_11.png",
+  "tts": "ActionCard_reb_base_ambush.jpg",
+  "name_en": "AMBUSH",
+  "name_it": "IMBOSCATA",
+  "text_en": "Place this leader in any system. Destroy up to 3-health worth of Imperial ground units of your choice in this system.",
+  "text_it": "Colloca questo leader in un sistema. Distruggi unità terrestri Imperiali per un valore di salute totale pari o inferiore a 3 a tua scelta in questo sistema.",
+  "faction": "reb",
+  "starting": false,
+  "timing_it": "Assegnazione",
+  "timing_en": "Assignment",
+  "leaders": [
+   "General Madine"
+  ]
+ }
+]

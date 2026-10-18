@@ -1,0 +1,13 @@
+{
+  "titolo": "Rebellion",
+  "sottotitolo": "una galassia in guerra",
+  "descrizione": "L'Impero dà la caccia alla base segreta dei Ribelli mentre l'Alleanza conquista i cuori dei sistemi: galassia in 3D con le miniature, missioni e leader, combattimenti con le carte tattica, gioco base e L'Ascesa dell'Impero, contro l'IA o online.",
+  "online": true,
+  "sezione": "conversione",
+  "ordine": 190,
+  "gioca": "https://tannoiser2.github.io/Rebellion/",
+  "bgg": 187645,
+  "generi": [
+    "Strategici"
+  ]
+}

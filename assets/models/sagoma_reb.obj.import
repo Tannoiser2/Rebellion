@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://boh2gmj7kpntd"
+path="res://.godot/imported/sagoma_reb.obj-cfe66734f09d4eddf7e8fe0e0cd58366.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sagoma_reb.obj-cfe66734f09d4eddf7e8fe0e0cd58366.mesh"]
+
+source_file="res://assets/models/sagoma_reb.obj"
+dest_files=["res://.godot/imported/sagoma_reb.obj-cfe66734f09d4eddf7e8fe0e0cd58366.mesh", "res://.godot/imported/sagoma_reb.obj-cfe66734f09d4eddf7e8fe0e0cd58366.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

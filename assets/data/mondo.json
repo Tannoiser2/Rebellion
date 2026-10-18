@@ -1,0 +1,1741 @@
+{
+ "sistemi": {
+  "SULLUST": {
+   "nome": "Sullust",
+   "regione": 7,
+   "popolato": true,
+   "icone": [
+    "OT",
+    "OS"
+   ],
+   "coda": 2,
+   "adiacenti": [
+    "BESPIN",
+    "CATO NEIMOIDIA",
+    "CORELLIA",
+    "DAGOBAH",
+    "MALASTARE",
+    "MUSTAFAR",
+    "NABOO"
+   ],
+   "pos": [
+    0.7021,
+    0.6769
+   ]
+  },
+  "TATOOINE": {
+   "nome": "Tatooine",
+   "regione": 6,
+   "popolato": false,
+   "icone": [],
+   "coda": 0,
+   "adiacenti": [
+    "BOTHAWUI",
+    "GEONOSIS",
+    "RODIA",
+    "RYLOTH"
+   ],
+   "pos": [
+    0.6796,
+    0.0619
+   ]
+  },
+  "BOTHAWUI": {
+   "nome": "Bothawui",
+   "regione": 5,
+   "popolato": true,
+   "icone": [
+    "OC"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "MALASTARE",
+    "NAL HUTTA",
+    "RODIA",
+    "TATOOINE",
+    "TOYDARIA"
+   ],
+   "pos": [
+    0.5384,
+    0.2067
+   ]
+  },
+  "TOYDARIA": {
+   "nome": "Toydaria",
+   "regione": 5,
+   "popolato": true,
+   "icone": [
+    "BC"
+   ],
+   "coda": 2,
+   "adiacenti": [
+    "BOTHAWUI",
+    "KASHYYYK",
+    "KESSEL",
+    "MALASTARE",
+    "NAL HUTTA",
+    "SALEUCAMI"
+   ],
+   "pos": [
+    0.3975,
+    0.3335
+   ]
+  },
+  "MALASTARE": {
+   "nome": "Malastare",
+   "regione": 3,
+   "popolato": true,
+   "icone": [
+    "OT"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "BOTHAWUI",
+    "CATO NEIMOIDIA",
+    "KASHYYYK",
+    "NABOO",
+    "RODIA",
+    "SULLUST",
+    "TOYDARIA"
+   ],
+   "pos": [
+    0.5479,
+    0.5227
+   ]
+  },
+  "DANTOOINE": {
+   "nome": "Dantooine",
+   "regione": 2,
+   "popolato": false,
+   "icone": [],
+   "coda": 0,
+   "adiacenti": [
+    "DATHOMIR",
+    "MYGEETO"
+   ],
+   "pos": [
+    0.0833,
+    0.6376
+   ]
+  },
+  "ALDERAAN": {
+   "nome": "Alderaan",
+   "regione": 1,
+   "popolato": true,
+   "icone": [
+    "OT"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "CATO NEIMOIDIA",
+    "CORELLIA",
+    "CORUSCANT",
+    "KASHYYYK",
+    "MANDALORE",
+    "ORD MANTELL"
+   ],
+   "pos": [
+    0.4124,
+    0.7803
+   ]
+  },
+  "KASHYYYK": {
+   "nome": "Kashyyyk",
+   "regione": 3,
+   "popolato": true,
+   "icone": [
+    "OT",
+    "OT"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "ALDERAAN",
+    "CATO NEIMOIDIA",
+    "MALASTARE",
+    "MANDALORE",
+    "SALEUCAMI",
+    "TOYDARIA"
+   ],
+   "pos": [
+    0.4268,
+    0.5622
+   ]
+  },
+  "RYLOTH": {
+   "nome": "Ryloth",
+   "regione": 6,
+   "popolato": true,
+   "icone": [
+    "OT"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "GEONOSIS",
+    "TATOOINE"
+   ],
+   "pos": [
+    0.8585,
+    0.0869
+   ]
+  },
+  "MUSTAFAR": {
+   "nome": "Mustafar",
+   "regione": 8,
+   "popolato": true,
+   "icone": [
+    "BT",
+    "BC"
+   ],
+   "coda": 2,
+   "adiacenti": [
+    "BESPIN",
+    "DAGOBAH",
+    "HOTH",
+    "SULLUST"
+   ],
+   "pos": [
+    0.8853,
+    0.5746
+   ]
+  },
+  "ENDOR": {
+   "nome": "Endor",
+   "regione": 8,
+   "popolato": false,
+   "icone": [],
+   "coda": 0,
+   "adiacenti": [
+    "BESPIN",
+    "HOTH"
+   ],
+   "pos": [
+    0.8229,
+    0.9144
+   ]
+  },
+  "SALEUCAMI": {
+   "nome": "Saleucami",
+   "regione": 4,
+   "popolato": true,
+   "icone": [
+    "OC"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "FELUCIA",
+    "KASHYYYK",
+    "KESSEL",
+    "MANDALORE",
+    "MON CALAMARI",
+    "TOYDARIA"
+   ],
+   "pos": [
+    0.2979,
+    0.2952
+   ]
+  },
+  "HOTH": {
+   "nome": "Hoth",
+   "regione": 8,
+   "popolato": false,
+   "icone": [],
+   "coda": 0,
+   "adiacenti": [
+    "BESPIN",
+    "ENDOR",
+    "MUSTAFAR"
+   ],
+   "pos": [
+    0.9204,
+    0.7393
+   ]
+  },
+  "RODIA": {
+   "nome": "Rodia",
+   "regione": 6,
+   "popolato": true,
+   "icone": [
+    "OT"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "BOTHAWUI",
+    "GEONOSIS",
+    "MALASTARE",
+    "NABOO",
+    "TATOOINE"
+   ],
+   "pos": [
+    0.623,
+    0.2906
+   ]
+  },
+  "CORUSCANT": {
+   "nome": "Coruscant",
+   "regione": 1,
+   "popolato": true,
+   "icone": [
+    "OT"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "ALDERAAN",
+    "CORELLIA",
+    "ORD MANTELL"
+   ],
+   "pos": [
+    0.5391,
+    0.9089
+   ]
+  },
+  "NABOO": {
+   "nome": "Naboo",
+   "regione": 7,
+   "popolato": true,
+   "icone": [
+    "OT",
+    "BT"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "DAGOBAH",
+    "GEONOSIS",
+    "MALASTARE",
+    "RODIA",
+    "SULLUST",
+    "UTAPAU"
+   ],
+   "pos": [
+    0.698,
+    0.4294
+   ]
+  },
+  "CATO NEIMOIDIA": {
+   "nome": "Cato Neimoidia",
+   "regione": 1,
+   "popolato": true,
+   "icone": [
+    "BT",
+    "OC"
+   ],
+   "coda": 2,
+   "adiacenti": [
+    "ALDERAAN",
+    "CORELLIA",
+    "KASHYYYK",
+    "MALASTARE",
+    "SULLUST"
+   ],
+   "pos": [
+    0.5743,
+    0.6812
+   ]
+  },
+  "ILUM": {
+   "nome": "Ilum",
+   "regione": 2,
+   "popolato": false,
+   "icone": [],
+   "coda": 0,
+   "adiacenti": [
+    "MYGEETO",
+    "ORD MANTELL"
+   ],
+   "pos": [
+    0.2258,
+    0.8875
+   ]
+  },
+  "MYGEETO": {
+   "nome": "Mygeeto",
+   "regione": 2,
+   "popolato": true,
+   "icone": [
+    "BT",
+    "OS"
+   ],
+   "coda": 2,
+   "adiacenti": [
+    "DANTOOINE",
+    "DATHOMIR",
+    "ILUM",
+    "MANDALORE",
+    "ORD MANTELL"
+   ],
+   "pos": [
+    0.163,
+    0.764
+   ]
+  },
+  "DAGOBAH": {
+   "nome": "Dagobah",
+   "regione": 7,
+   "popolato": false,
+   "icone": [],
+   "coda": 0,
+   "adiacenti": [
+    "MUSTAFAR",
+    "NABOO",
+    "SULLUST",
+    "UTAPAU"
+   ],
+   "pos": [
+    0.7819,
+    0.5429
+   ]
+  },
+  "UTAPAU": {
+   "nome": "Utapau",
+   "regione": 7,
+   "popolato": true,
+   "icone": [
+    "BC",
+    "BS"
+   ],
+   "coda": 3,
+   "adiacenti": [
+    "DAGOBAH",
+    "GEONOSIS",
+    "NABOO"
+   ],
+   "pos": [
+    0.8968,
+    0.3527
+   ]
+  },
+  "GEONOSIS": {
+   "nome": "Geonosis",
+   "regione": 6,
+   "popolato": true,
+   "icone": [
+    "BT",
+    "OS"
+   ],
+   "coda": 2,
+   "adiacenti": [
+    "NABOO",
+    "RODIA",
+    "RYLOTH",
+    "TATOOINE",
+    "UTAPAU"
+   ],
+   "pos": [
+    0.7853,
+    0.235
+   ]
+  },
+  "BESPIN": {
+   "nome": "Bespin",
+   "regione": 8,
+   "popolato": true,
+   "icone": [
+    "OC"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "ENDOR",
+    "HOTH",
+    "MUSTAFAR",
+    "SULLUST"
+   ],
+   "pos": [
+    0.8248,
+    0.7596
+   ]
+  },
+  "CORELLIA": {
+   "nome": "Corellia",
+   "regione": 1,
+   "popolato": true,
+   "icone": [
+    "BT",
+    "BS"
+   ],
+   "coda": 3,
+   "adiacenti": [
+    "ALDERAAN",
+    "CATO NEIMOIDIA",
+    "CORUSCANT",
+    "SULLUST"
+   ],
+   "pos": [
+    0.6621,
+    0.8843
+   ]
+  },
+  "MON CALAMARI": {
+   "nome": "Mon Calamari",
+   "regione": 4,
+   "popolato": true,
+   "icone": [
+    "BT",
+    "BS"
+   ],
+   "coda": 3,
+   "adiacenti": [
+    "FELUCIA",
+    "SALEUCAMI"
+   ],
+   "pos": [
+    0.1521,
+    0.1022
+   ]
+  },
+  "DATHOMIR": {
+   "nome": "Dathomir",
+   "regione": 3,
+   "popolato": false,
+   "icone": [],
+   "coda": 0,
+   "adiacenti": [
+    "DANTOOINE",
+    "MANDALORE",
+    "MYGEETO",
+    "YAVIN"
+   ],
+   "pos": [
+    0.2213,
+    0.5883
+   ]
+  },
+  "YAVIN": {
+   "nome": "Yavin",
+   "regione": 4,
+   "popolato": false,
+   "icone": [],
+   "coda": 0,
+   "adiacenti": [
+    "DATHOMIR",
+    "FELUCIA",
+    "MANDALORE"
+   ],
+   "pos": [
+    0.1183,
+    0.3942
+   ]
+  },
+  "ORD MANTELL": {
+   "nome": "Ord Mantell",
+   "regione": 2,
+   "popolato": true,
+   "icone": [
+    "BC",
+    "OC"
+   ],
+   "coda": 2,
+   "adiacenti": [
+    "ALDERAAN",
+    "CORUSCANT",
+    "ILUM",
+    "MANDALORE",
+    "MYGEETO"
+   ],
+   "pos": [
+    0.3097,
+    0.8134
+   ]
+  },
+  "FELUCIA": {
+   "nome": "Felucia",
+   "regione": 4,
+   "popolato": true,
+   "icone": [
+    "OT"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "MANDALORE",
+    "MON CALAMARI",
+    "SALEUCAMI",
+    "YAVIN"
+   ],
+   "pos": [
+    0.2,
+    0.3042
+   ]
+  },
+  "MANDALORE": {
+   "nome": "Mandalore",
+   "regione": 3,
+   "popolato": true,
+   "icone": [
+    "OT",
+    "BT"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "ALDERAAN",
+    "DATHOMIR",
+    "FELUCIA",
+    "KASHYYYK",
+    "MYGEETO",
+    "ORD MANTELL",
+    "SALEUCAMI",
+    "YAVIN"
+   ],
+   "pos": [
+    0.3406,
+    0.6502
+   ]
+  },
+  "KESSEL": {
+   "nome": "Kessel",
+   "regione": 5,
+   "popolato": true,
+   "icone": [
+    "OT"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "NAL HUTTA",
+    "SALEUCAMI",
+    "TOYDARIA"
+   ],
+   "pos": [
+    0.3216,
+    0.1048
+   ]
+  },
+  "NAL HUTTA": {
+   "nome": "Nal Hutta",
+   "regione": 5,
+   "popolato": true,
+   "icone": [
+    "OT",
+    "BT"
+   ],
+   "coda": 1,
+   "adiacenti": [
+    "BOTHAWUI",
+    "KESSEL",
+    "TOYDARIA"
+   ],
+   "pos": [
+    0.428,
+    0.1308
+   ]
+  }
+ },
+ "unita": {
+  "Airspeeder": {
+   "fazione": "R",
+   "teatro": "terra",
+   "tipo": "",
+   "trasporto": 0,
+   "serve_trasporto": true,
+   "immobile": false,
+   "struttura": false,
+   "neri": 1,
+   "rossi": 1,
+   "verdi": 0,
+   "salute": 2,
+   "colore_salute": "rosso",
+   "icona": "OC",
+   "massimo": 6,
+   "set": "base"
+  },
+  "Corellian Corvette": {
+   "fazione": "R",
+   "teatro": "spazio",
+   "tipo": "Capital",
+   "trasporto": 2,
+   "serve_trasporto": false,
+   "immobile": false,
+   "struttura": false,
+   "neri": 1,
+   "rossi": 1,
+   "verdi": 0,
+   "salute": 2,
+   "colore_salute": "rosso",
+   "icona": "BC",
+   "massimo": 4,
+   "set": "base"
+  },
+  "Shield Bunker": {
+   "fazione": "I",
+   "teatro": "terra",
+   "tipo": "Structure",
+   "trasporto": 0,
+   "serve_trasporto": false,
+   "immobile": true,
+   "struttura": true,
+   "neri": 0,
+   "rossi": 0,
+   "verdi": 0,
+   "salute": 3,
+   "colore_salute": "rosso",
+   "icona": "OC",
+   "massimo": 3,
+   "set": "rote"
+  },
+  "Rebel Trooper": {
+   "fazione": "R",
+   "teatro": "terra",
+   "tipo": "",
+   "trasporto": 0,
+   "serve_trasporto": true,
+   "immobile": false,
+   "struttura": false,
+   "neri": 1,
+   "rossi": 0,
+   "verdi": 0,
+   "salute": 1,
+   "colore_salute": "nero",
+   "icona": "OT",
+   "massimo": 21,
+   "set": "base"
+  },
+  "Golan Arms Turret": {
+   "fazione": "R",
+   "teatro": "terra",
+   "tipo": "Structure",
+   "trasporto": 0,
+   "serve_trasporto": false,
+   "immobile": true,
+   "struttura": true,
+   "neri": 0,
+   "rossi": 0,
+   "verdi": 2,
+   "salute": 3,
+   "colore_salute": "rosso",
+   "icona": "OC",
+   "massimo": 3,
+   "set": "rote"
+  },
+  "Rebel Vanguard": {
+   "fazione": "R",
+   "teatro": "terra",
+   "tipo": "",
+   "trasporto": 0,
+   "serve_trasporto": true,
+   "immobile": false,
+   "struttura": false,
+   "neri": 0,
+   "rossi": 0,
+   "verdi": 1,
+   "salute": 1,
+   "colore_salute": "nero",
+   "icona": "OT",
+   "massimo": 6,
+   "set": "rote"
+  },
+  "Stormtrooper": {
+   "fazione": "I",
+   "teatro": "terra",
+   "tipo": "",
+   "trasporto": 0,
+   "serve_trasporto": true,
+   "immobile": false,
+   "struttura": false,
+   "neri": 1,
+   "rossi": 0,
+   "verdi": 0,
+   "salute": 1,
+   "colore_salute": "nero",
+   "icona": "OT",
+   "massimo": 30,
+   "set": "base"
+  },
+  "TIE Striker": {
+   "fazione": "I",
+   "teatro": "spazio",
+   "tipo": "Fighter",
+   "trasporto": 0,
+   "serve_trasporto": true,
+   "immobile": false,
+   "struttura": false,
+   "neri": 0,
+   "rossi": 0,
+   "verdi": 1,
+   "salute": 1,
+   "colore_salute": "nero",
+   "icona": "BT",
+   "massimo": 6,
+   "set": "rote"
+  },
+  "Star Destroyer": {
+   "fazione": "I",
+   "teatro": "spazio",
+   "tipo": "Capital",
+   "trasporto": 6,
+   "serve_trasporto": false,
+   "immobile": false,
+   "struttura": false,
+   "neri": 1,
+   "rossi": 2,
+   "verdi": 0,
+   "salute": 4,
+   "colore_salute": "rosso",
+   "icona": "BS",
+   "massimo": 8,
+   "set": "base"
+  },
+  "Assault Carrier": {
+   "fazione": "I",
+   "teatro": "spazio",
+   "tipo": "Capital",
+   "trasporto": 4,
+   "serve_trasporto": false,
+   "immobile": false,
+   "struttura": false,
+   "neri": 1,
+   "rossi": 1,
+   "verdi": 0,
+   "salute": 2,
+   "colore_salute": "rosso",
+   "icona": "BC",
+   "massimo": 8,
+   "set": "base"
+  },
+  "Mon Cala Cruiser": {
+   "fazione": "R",
+   "teatro": "spazio",
+   "tipo": "Capital",
+   "trasporto": 4,
+   "serve_trasporto": false,
+   "immobile": false,
+   "struttura": false,
+   "neri": 1,
+   "rossi": 2,
+   "verdi": 0,
+   "salute": 4,
+   "colore_salute": "rosso",
+   "icona": "BS",
+   "massimo": 3,
+   "set": "base"
+  },
+  "Super Star Destroyer": {
+   "fazione": "I",
+   "teatro": "spazio",
+   "tipo": "Capital",
+   "trasporto": 8,
+   "serve_trasporto": false,
+   "immobile": false,
+   "struttura": false,
+   "neri": 2,
+   "rossi": 3,
+   "verdi": 0,
+   "salute": 6,
+   "colore_salute": "rosso",
+   "icona": "",
+   "massimo": 2,
+   "set": "base"
+  },
+  "U-Wing": {
+   "fazione": "R",
+   "teatro": "spazio",
+   "tipo": "Fighter",
+   "trasporto": 1,
+   "serve_trasporto": false,
+   "immobile": false,
+   "struttura": false,
+   "neri": 0,
+   "rossi": 0,
+   "verdi": 1,
+   "salute": 1,
+   "colore_salute": "nero",
+   "icona": "BT",
+   "massimo": 6,
+   "set": "rote"
+  },
+  "Ion Cannon": {
+   "fazione": "R",
+   "teatro": "terra",
+   "tipo": "Structure",
+   "trasporto": 0,
+   "serve_trasporto": false,
+   "immobile": true,
+   "struttura": true,
+   "neri": 0,
+   "rossi": 0,
+   "verdi": 0,
+   "salute": 3,
+   "colore_salute": "rosso",
+   "icona": "OS",
+   "massimo": 3,
+   "set": "base"
+  },
+  "Nebulon-B Frigate": {
+   "fazione": "R",
+   "teatro": "spazio",
+   "tipo": "Capital",
+   "trasporto": 3,
+   "serve_trasporto": false,
+   "immobile": false,
+   "struttura": false,
+   "neri": 0,
+   "rossi": 0,
+   "verdi": 2,
+   "salute": 3,
+   "colore_salute": "rosso",
+   "icona": "BC",
+   "massimo": 3,
+   "set": "rote"
+  },
+  "Assault Tank": {
+   "fazione": "I",
+   "teatro": "terra",
+   "tipo": "",
+   "trasporto": 0,
+   "serve_trasporto": true,
+   "immobile": false,
+   "struttura": false,
+   "neri": 0,
+   "rossi": 0,
+   "verdi": 1,
+   "salute": 1,
+   "colore_salute": "rosso",
+   "icona": "OT",
+   "massimo": 6,
+   "set": "rote"
+  },
+  "Interdictor": {
+   "fazione": "I",
+   "teatro": "spazio",
+   "tipo": "Capital",
+   "trasporto": 4,
+   "serve_trasporto": false,
+   "immobile": false,
+   "struttura": false,
+   "neri": 0,
+   "rossi": 0,
+   "verdi": 2,
+   "salute": 4,
+   "colore_salute": "rosso",
+   "icona": "",
+   "massimo": 3,
+   "set": "rote"
+  },
+  "X-Wing": {
+   "fazione": "R",
+   "teatro": "spazio",
+   "tipo": "Fighter",
+   "trasporto": 0,
+   "serve_trasporto": false,
+   "immobile": false,
+   "struttura": false,
+   "neri": 1,
+   "rossi": 0,
+   "verdi": 0,
+   "salute": 1,
+   "colore_salute": "nero",
+   "icona": "BT",
+   "massimo": 8,
+   "set": "base"
+  },
+  "Death Star Under Construction": {
+   "fazione": "I",
+   "teatro": "spazio",
+   "tipo": "Station",
+   "trasporto": 0,
+   "serve_trasporto": false,
+   "immobile": true,
+   "struttura": false,
+   "neri": 0,
+   "rossi": 0,
+   "verdi": 0,
+   "salute": 4,
+   "colore_salute": "nero",
+   "icona": "",
+   "massimo": 1,
+   "set": "base"
+  },
+  "AT-ST": {
+   "fazione": "I",
+   "teatro": "terra",
+   "tipo": "",
+   "trasporto": 0,
+   "serve_trasporto": true,
+   "immobile": false,
+   "struttura": false,
+   "neri": 1,
+   "rossi": 1,
+   "verdi": 0,
+   "salute": 2,
+   "colore_salute": "rosso",
+   "icona": "OC",
+   "massimo": 10,
+   "set": "base"
+  },
+  "Rebel Transport": {
+   "fazione": "R",
+   "teatro": "spazio",
+   "tipo": "Capital",
+   "trasporto": 4,
+   "serve_trasporto": false,
+   "immobile": false,
+   "struttura": false,
+   "neri": 0,
+   "rossi": 0,
+   "verdi": 0,
+   "salute": 2,
+   "colore_salute": "rosso",
+   "icona": "BT",
+   "massimo": 4,
+   "set": "base"
+  },
+  "TIE Fighter": {
+   "fazione": "I",
+   "teatro": "spazio",
+   "tipo": "Fighter",
+   "trasporto": 0,
+   "serve_trasporto": true,
+   "immobile": false,
+   "struttura": false,
+   "neri": 1,
+   "rossi": 0,
+   "verdi": 0,
+   "salute": 1,
+   "colore_salute": "nero",
+   "icona": "BT",
+   "massimo": 24,
+   "set": "base"
+  },
+  "Y-Wing": {
+   "fazione": "R",
+   "teatro": "spazio",
+   "tipo": "Fighter",
+   "trasporto": 0,
+   "serve_trasporto": false,
+   "immobile": false,
+   "struttura": false,
+   "neri": 0,
+   "rossi": 1,
+   "verdi": 0,
+   "salute": 1,
+   "colore_salute": "nero",
+   "icona": "BT",
+   "massimo": 12,
+   "set": "base"
+  },
+  "Shield Generator": {
+   "fazione": "R",
+   "teatro": "terra",
+   "tipo": "Structure",
+   "trasporto": 0,
+   "serve_trasporto": false,
+   "immobile": true,
+   "struttura": true,
+   "neri": 0,
+   "rossi": 0,
+   "verdi": 0,
+   "salute": 3,
+   "colore_salute": "rosso",
+   "icona": "OS",
+   "massimo": 3,
+   "set": "base"
+  },
+  "Death Star": {
+   "fazione": "I",
+   "teatro": "spazio",
+   "tipo": "Station",
+   "trasporto": 8,
+   "serve_trasporto": false,
+   "immobile": false,
+   "struttura": false,
+   "neri": 0,
+   "rossi": 4,
+   "verdi": 0,
+   "salute": 0,
+   "colore_salute": "",
+   "icona": "",
+   "massimo": 2,
+   "set": "base"
+  },
+  "AT-AT": {
+   "fazione": "I",
+   "teatro": "terra",
+   "tipo": "",
+   "trasporto": 0,
+   "serve_trasporto": true,
+   "immobile": false,
+   "struttura": false,
+   "neri": 1,
+   "rossi": 2,
+   "verdi": 0,
+   "salute": 3,
+   "colore_salute": "rosso",
+   "icona": "OS",
+   "massimo": 4,
+   "set": "base"
+  }
+ },
+ "leader": {
+  "Soontir Fel": {
+   "fazione": "I",
+   "ruolo": "Admiral",
+   "iniziale": false,
+   "spazio": 2,
+   "terra": 1,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 1,
+    "opspec": 2,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "General Rieekan": {
+   "fazione": "R",
+   "ruolo": "General",
+   "iniziale": true,
+   "spazio": 1,
+   "terra": 2,
+   "abilita": {
+    "diplomazia": 1,
+    "intel": 0,
+    "opspec": 1,
+    "logistica": 1
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Cassian Andor": {
+   "fazione": "R",
+   "ruolo": "Admiral",
+   "iniziale": false,
+   "spazio": 2,
+   "terra": 1,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 2,
+    "opspec": 0,
+    "logistica": 1
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 2,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "rote"
+  },
+  "General Tagge": {
+   "fazione": "I",
+   "ruolo": "General",
+   "iniziale": true,
+   "spazio": 1,
+   "terra": 2,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 1,
+    "logistica": 1
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Emperor Palpatine": {
+   "fazione": "I",
+   "ruolo": "Admiral",
+   "iniziale": true,
+   "spazio": 3,
+   "terra": 2,
+   "abilita": {
+    "diplomazia": 3,
+    "intel": 2,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Moff Jerjerrod": {
+   "fazione": "I",
+   "ruolo": "General",
+   "iniziale": false,
+   "spazio": 1,
+   "terra": 1,
+   "abilita": {
+    "diplomazia": 1,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 1
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Colonel Yularen": {
+   "fazione": "I",
+   "ruolo": "General",
+   "iniziale": false,
+   "spazio": 2,
+   "terra": 2,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 3,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Mon Mothma": {
+   "fazione": "R",
+   "ruolo": "Admiral",
+   "iniziale": true,
+   "spazio": 0,
+   "terra": 0,
+   "abilita": {
+    "diplomazia": 3,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 1
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Jan Dodonna": {
+   "fazione": "R",
+   "ruolo": "Admiral",
+   "iniziale": true,
+   "spazio": 2,
+   "terra": 1,
+   "abilita": {
+    "diplomazia": 1,
+    "intel": 2,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "General Veers": {
+   "fazione": "I",
+   "ruolo": "General",
+   "iniziale": false,
+   "spazio": 1,
+   "terra": 3,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 2,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "General Madine": {
+   "fazione": "R",
+   "ruolo": "General",
+   "iniziale": false,
+   "spazio": 1,
+   "terra": 3,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 2,
+    "opspec": 2,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Han Solo": {
+   "fazione": "R",
+   "ruolo": "Admiral",
+   "iniziale": false,
+   "spazio": 2,
+   "terra": 2,
+   "abilita": {
+    "diplomazia": 1,
+    "intel": 1,
+    "opspec": 2,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Chirrut Imwe": {
+   "fazione": "R",
+   "ruolo": "General",
+   "iniziale": false,
+   "spazio": 1,
+   "terra": 2,
+   "abilita": {
+    "diplomazia": 1,
+    "intel": 0,
+    "opspec": 2,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 2,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "rote"
+  },
+  "Grand Moff Tarkin": {
+   "fazione": "I",
+   "ruolo": "Admiral",
+   "iniziale": true,
+   "spazio": 2,
+   "terra": 1,
+   "abilita": {
+    "diplomazia": 1,
+    "intel": 1,
+    "opspec": 0,
+    "logistica": 1
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Luke Skywalker": {
+   "fazione": "R",
+   "ruolo": "General",
+   "iniziale": false,
+   "spazio": 2,
+   "terra": 2,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 2,
+    "opspec": 1,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Jabba the Hutt": {
+   "fazione": "I",
+   "ruolo": "General",
+   "iniziale": false,
+   "spazio": 0,
+   "terra": 0,
+   "abilita": {
+    "diplomazia": 2,
+    "intel": 2,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 1,
+    "intel": 1,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "rote"
+  },
+  "Janus Greejatus": {
+   "fazione": "I",
+   "ruolo": "Admiral",
+   "iniziale": false,
+   "spazio": 0,
+   "terra": 0,
+   "abilita": {
+    "diplomazia": 2,
+    "intel": 1,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Admiral Ozzel": {
+   "fazione": "I",
+   "ruolo": "Admiral",
+   "iniziale": false,
+   "spazio": 2,
+   "terra": 1,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 1,
+    "opspec": 0,
+    "logistica": 1
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Krennic's Finest": {
+   "fazione": "I",
+   "ruolo": "General",
+   "iniziale": false,
+   "spazio": 1,
+   "terra": 3,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 2,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 2,
+    "logistica": 0
+   },
+   "set": "rote"
+  },
+  "Boba Fett": {
+   "fazione": "I",
+   "ruolo": "General",
+   "iniziale": false,
+   "spazio": 0,
+   "terra": 0,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 2,
+    "opspec": 3,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Admiral Piett": {
+   "fazione": "I",
+   "ruolo": "Admiral",
+   "iniziale": false,
+   "spazio": 3,
+   "terra": 1,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 2,
+    "opspec": 1,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Princess Leia": {
+   "fazione": "R",
+   "ruolo": "General",
+   "iniziale": true,
+   "spazio": 1,
+   "terra": 1,
+   "abilita": {
+    "diplomazia": 2,
+    "intel": 2,
+    "opspec": 1,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Jyn Erso": {
+   "fazione": "R",
+   "ruolo": "Admiral",
+   "iniziale": false,
+   "spazio": 1,
+   "terra": 2,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 1,
+    "opspec": 1,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 1,
+    "intel": 2,
+    "opspec": 1,
+    "logistica": 0
+   },
+   "set": "rote"
+  },
+  "Chewbacca": {
+   "fazione": "R",
+   "ruolo": "General",
+   "iniziale": false,
+   "spazio": 1,
+   "terra": 2,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 3,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Admiral Ackbar": {
+   "fazione": "R",
+   "ruolo": "Admiral",
+   "iniziale": false,
+   "spazio": 3,
+   "terra": 1,
+   "abilita": {
+    "diplomazia": 2,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 1
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Saw Gerrera": {
+   "fazione": "R",
+   "ruolo": "General",
+   "iniziale": false,
+   "spazio": 1,
+   "terra": 3,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 1,
+    "logistica": 1
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 2,
+    "logistica": 0
+   },
+   "set": "rote"
+  },
+  "Lando Calrissian": {
+   "fazione": "R",
+   "ruolo": "Admiral",
+   "iniziale": false,
+   "spazio": 2,
+   "terra": 2,
+   "abilita": {
+    "diplomazia": 1,
+    "intel": 1,
+    "opspec": 1,
+    "logistica": 1
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Obi-Wan Kenobi": {
+   "fazione": "R",
+   "ruolo": "General",
+   "iniziale": false,
+   "spazio": 1,
+   "terra": 3,
+   "abilita": {
+    "diplomazia": 1,
+    "intel": 3,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Director Krennic": {
+   "fazione": "I",
+   "ruolo": "Admiral",
+   "iniziale": false,
+   "spazio": 2,
+   "terra": 2,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 1,
+    "opspec": 0,
+    "logistica": 1
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 2,
+    "opspec": 1,
+    "logistica": 0
+   },
+   "set": "rote"
+  },
+  "Wedge Antilles": {
+   "fazione": "R",
+   "ruolo": "Admiral",
+   "iniziale": false,
+   "spazio": 3,
+   "terra": 1,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 2,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Luke Skywalker (Jedi)": {
+   "fazione": "R",
+   "ruolo": "General",
+   "iniziale": false,
+   "spazio": 3,
+   "terra": 3,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 3,
+    "opspec": 2,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  },
+  "Admiral Motti": {
+   "fazione": "I",
+   "ruolo": "Admiral",
+   "iniziale": false,
+   "spazio": 2,
+   "terra": 1,
+   "abilita": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 1
+   },
+   "minori": {
+    "diplomazia": 1,
+    "intel": 1,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "rote"
+  },
+  "Darth Vader": {
+   "fazione": "I",
+   "ruolo": "General",
+   "iniziale": true,
+   "spazio": 2,
+   "terra": 3,
+   "abilita": {
+    "diplomazia": 2,
+    "intel": 0,
+    "opspec": 3,
+    "logistica": 0
+   },
+   "minori": {
+    "diplomazia": 0,
+    "intel": 0,
+    "opspec": 0,
+    "logistica": 0
+   },
+   "set": "base"
+  }
+ },
+ "reclutamento": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "costruzione": [
+  2,
+  4,
+  6,
+  8,
+  10,
+  12,
+  14,
+  16
+ ]
+}

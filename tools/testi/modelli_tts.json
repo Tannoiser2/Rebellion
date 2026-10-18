@@ -1,0 +1,540 @@
+{
+ "Chirrut Imwe": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc7807521637344451672FCDFB80CF37609C0A6FD562D1D5346A37522284",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Jyn Erso": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc7807521637344484030CF968023A11929739F51044C3416E0E4E0DFCB0",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Cassian Andor": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc7807521637344506944412E72C09230F0C3B5B372CFCDDB1A00BDB548D",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Saw Gerrera": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc7807521637344464173D9C4684E8584C0A8DDBF8934BF00A9FF3E0C84C",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Admiral Ackbar": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734457539CC6EB5BE56C9DE57A46C5F4494A0FD6872F6375A",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Lando Calrissian": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734458296CC751A26F6270166915D3483FA2304CE93EBFA72",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Chewbacca": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734459059016AA82B3FA56B5E37951988CAE4250F745BE228",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Han Solo": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734456883BB4DBDDB928E3288233BBE828648BDA03D250312",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "General Madine": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc78075216373445170168BEA8DD7FB22DE56F6158F781167AFB8B27980C",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Luke Skywalker (Jedi)": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc7807521637344557729AFAB1F6DECC512BACC9B5CA0D060D8447FA6441",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Luke Skywalker": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc78075216373445431991A8CB97E5CABEC2CACEA2FCC1B612A1C6AFD9B7",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Obi-Wan Kenobi": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc7807521637344526978F433C6DDF8B6C573C62180675E7F042F77ACADC",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Wedge Antilles": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc78075216373445347841D6EA2FCC1A80FFC4642A063BE5BEEAC61DEA5F",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Jan Dodonna": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734460236598E9C2D1224BF02E5641D43392FCD86A46278DB",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "General Rieekan": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734427606E109473AB78C32EF15793483DB688FF496AAD70B",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Mon Mothma": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734425278FBA0783025639A1937B2956A6377EAD1A2DC2FFE",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Princess Leia": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc78075216373441270273259B18C31B1F91406946E2CCFCAABB7014564E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734424238FEF078A1B9E9D55DA1FF42D729F49B37074D2014",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Jabba the Hutt": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734258536DD36005936C74FBF5CC381BA5EA7F78A70EB03CA",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Krennic's Finest": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc7807521637342560995A1C29A0B663B462060E5E0F54E82EB7693EB934",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Admiral Motti": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734263518DEAC1F98260A53B61B7607B665AF9578F639474D",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Director Krennic": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734257470377DC0078BC4402B9051319209BC2F701943157D",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Janus Greejatus": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc7807521637342325574D102EEEDF7BDB1535F740C85635297E5CB73A20",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Moff Jerjerrod": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734287898F34B6A3C81CF9739005C3B8B20BD4F45AB0BF0F1",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "General Veers": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc1593666545410125462D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734234192656E68DB258FEBA3F51B0BC3F6F55B740BC9F6EC",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Colonel Yularen": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734270236EC46D970048E9656870C19AFBDF6451CA17A2579",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Boba Fett": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc78075216373424630663BD7D38BDFCE8EA026BC2AB1EAD3968A1431EEA",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Soontir Fel": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734259884AD383390365509EF1F11F8F549E490FE190CE3A3",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Admiral Ozzel": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc7807521637342621658C99739F75FC87FF0186D53BAF5A7C9A499D14AB",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Admiral Piett": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc78075216373426572622D8DAC5DDB9279ABE703E2D1EAA7E99E8B2199F",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Grand Moff Tarkin": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc7807521637342538657CE6B2588D491E937D70813D5F48A93F586A51ED",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "General Tagge": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734254746D85C18B15E4343DEF3A595D1B088B680FEC50846",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Emperor Palpatine": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc7807521637342527363058211FC0C5C11F0B5CA657D6A2A01A066CB418",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Darth Vader": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734188959D7EA7F50DF1A5610D01E8419C93E86FFB02F408E",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734251689B4AB48A80B72153A3CB742637E42A29C307696DF",
+  "norm": "",
+  "kind": "leader",
+  "scale": 0.3
+ },
+ "Assault Tank": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc17603126018327347473A0E9E0D8580544E62D1FD1223A0B48484F1B011",
+  "diff": "httpssteamusercontentaakamaihdnetugc2039603793771204453AD7B346AD4E83A813068A4403F84B7A468A33107",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 1.0,
+   "g": 1.0,
+   "b": 1.0
+  },
+  "scale": 0.13
+ },
+ "Stormtrooper": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc17603126018326675607E06BF6E8E18DD05BBBF10343614B47B8BEE9948",
+  "diff": "httpssteamusercontentaakamaihdnetugc16938989090631360366533E662AA924CC3132B8F7E6C9E775EB30FA84A",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 1.0,
+   "g": 1.0,
+   "b": 1.0
+  },
+  "scale": 0.45
+ },
+ "AT-ST": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc169389890906314352124C098E7B3D1708CDCFB9AEA4B2C445EF2DBAEE0",
+  "diff": "httpssteamusercontentaakamaihdnetugc20396037937711573190D2E2CB4E1270BF8543946AEF938D063F4FABAA2",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 1.0,
+   "g": 1.0,
+   "b": 1.0
+  },
+  "scale": 0.08
+ },
+ "AT-AT": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc16938989090631602416526A7BDC85F3E36787653EFB41DDE8518EEAFAF",
+  "diff": "httpssteamusercontentaakamaihdnetugc203960379377122844366ABED87121431A7C9E209CEC221B5F0F8558681",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 1.0,
+   "g": 1.0,
+   "b": 1.0
+  },
+  "scale": 0.11
+ },
+ "TIE Fighter": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc2039603726785200944B2E04974797996B240A9468EAF1AF0DBCB39CA97",
+  "diff": "httpssteamusercontentaakamaihdnetugc20396037937712257539F188736813FBE97A676CD27D2021BB3439F2050",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 0.9999998,
+   "g": 0.992160261,
+   "b": 0.9999998
+  },
+  "scale": 0.2
+ },
+ "Assault Carrier": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc2039603726785206269CC6823F69DA7B03384BB2981ADD8A611AE6BE53B",
+  "diff": "httpssteamusercontentaakamaihdnetugc203960379377116203885F305082B6EC45D403E399BC93BEF9C694A374F",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 0.573170662,
+   "g": 0.573170662,
+   "b": 0.573170662
+  },
+  "scale": 0.06
+ },
+ "Star Destroyer": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc1760312601832840758585CBBBB2DBC74E62FB9A85E1A8BB33AAD5BA22E",
+  "diff": "httpssteamusercontentaakamaihdnetugc20396037937711874161F059AA27A8DD8A826B95BB8B79C29BCD889B518",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 0.9999998,
+   "g": 0.992160261,
+   "b": 0.9999998
+  },
+  "scale": 0.09
+ },
+ "Super Star Destroyer": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc780752163734127710695BA7E2411616AF5125834E5AC158A985E5F0CA",
+  "diff": "httpssteamusercontentaakamaihdnetugc176687449284129910946A122F0422E95BCAAE3AD2870659300BD5B61948",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 0.9999998,
+   "g": 0.992160261,
+   "b": 0.9999998
+  },
+  "scale": 0.2
+ },
+ "Death Star Under Construction": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc18616741226825112781A506D07F4EE58CEFE1A35F3A09006731C3554CB",
+  "diff": "httpssteamusercontentaakamaihdnetugc203960379377122327495FAAC2851C8884759834336E547EC32091282E9",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 0.5923344,
+   "g": 0.5923344,
+   "b": 0.5923344
+  },
+  "scale": 0.01
+ },
+ "Death Star": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc1861674122682510251191E92C58CE92F83CF7943AE3A610D7C4C50C02E",
+  "diff": "httpssteamusercontentaakamaihdnetugc1861674122682510706F0A2FD3EB823380A31AAE236E540B1578D566DC1",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 0.6641,
+   "g": 0.7203438,
+   "b": 0.757839739
+  },
+  "scale": 0.09
+ },
+ "Interdictor": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc20396037267852216712183B686B9005BA70871B99C514EA5E796E4DADF",
+  "diff": "httpssteamusercontentaakamaihdnetugc2039603793771189099BC6251CB60C82D7C4CEC714C91B695526A1E26F9",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 1.0,
+   "g": 1.0,
+   "b": 1.0
+  },
+  "scale": 0.2
+ },
+ "TIE Striker": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc20396037267852120362C4DD3FA3BB680C900FD013BD5504AB975B170DA",
+  "diff": "httpssteamusercontentaakamaihdnetugc1861672203877511773409CB4A37329D1484A77C02ADF43033FC7767086",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 0.9999998,
+   "g": 0.992160261,
+   "b": 0.9999998
+  },
+  "scale": 0.2
+ },
+ "Shield Bunker": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc1760312601832768530C00C1E64D16D365E6B372FC0221B1BACAFDA57CC",
+  "diff": "httpssteamusercontentaakamaihdnetugc176031260183276881946794FE163485DA38CC2AB5CE77DCCAE31132D46",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 1.0,
+   "g": 1.0,
+   "b": 1.0
+  },
+  "scale": 0.03
+ },
+ "Mon Cala Cruiser": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc15936665454133728175FABAC93E041DB750CA39A10CF4A15A4CF070E6E",
+  "diff": "httpssteamusercontentaakamaihdnetugc18616722038769068846DD64502112AF7027E8196CCA1C6448E63E83F5C",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 0.9999998,
+   "g": 0.992160261,
+   "b": 0.9999998
+  },
+  "scale": 0.33
+ },
+ "Corellian Corvette": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc20396037267851852619357AA2E7B157AB5AD021FEBF5B20D92AD77E4D8",
+  "diff": "httpssteamusercontentaakamaihdnetugc20396037937712395339EE82CB3CA5C9804D7EE41057EC71A524A8DB4C0",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 0.9999998,
+   "g": 0.992160261,
+   "b": 0.9999998
+  },
+  "scale": 0.06
+ },
+ "Nebulon-B Frigate": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc20396037267851527136DCC94059E12BBF2F779F3208783A9064BCA7F4A",
+  "diff": "httpssteamusercontentaakamaihdnetugc16938990824023802082D3D8601B0E4D971982259EF8839F7B076024A0B",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 1.0,
+   "g": 1.0,
+   "b": 1.0
+  },
+  "scale": 0.3
+ },
+ "Y-Wing": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc2039603726785170593E790DE8DEC784065EBDBBD211B2A87EE6CEBAADD",
+  "diff": "httpssteamusercontentaakamaihdnetugc2039603793771152222E285D28CB0AB584F6A79B21C77062AE89AE7AF83",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 1.0,
+   "g": 1.0,
+   "b": 1.0
+  },
+  "scale": 0.22
+ },
+ "U-Wing": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc164321457290172160032EDE20712EF2E754E90EC0DA63CA9476BF4E94D",
+  "diff": "httpssteamusercontentaakamaihdnetugc2039603793771247262C45383DDB360845900428FCF0005F4A4264A0383",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 1.0,
+   "g": 1.0,
+   "b": 1.0
+  },
+  "scale": 0.15
+ },
+ "Ion Cannon": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc1593666545413418398B20F7E07833C2F51D9A4CE5FD5F20ACED371B048",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734305674897B8A09D22AFF2C2D30F4C1D41C401597ED67E2",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 0.9999998,
+   "g": 0.992160261,
+   "b": 0.9999998
+  },
+  "scale": 0.5
+ },
+ "Airspeeder": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc1851544201709649177B211923859C7141D42A3DAF193C850C4BC2CB581",
+  "diff": "httpssteamusercontentaakamaihdnetugc2039603793771237727B80A70FB4FD0444DC7FC12F25A5ED2C059EF77F1",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 1.0,
+   "g": 1.0,
+   "b": 1.0
+  },
+  "scale": 0.14
+ },
+ "Rebel Trooper": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc1686023243878454354CB316B23D59F28C5EF22E94A43280D49DFFDD6AC",
+  "diff": "httpssteamusercontentaakamaihdnetugc1693898969595181991F7C557E9DA9D370C37E8B9A4EE7FC6A896804D73",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 1.0,
+   "g": 1.0,
+   "b": 1.0
+  },
+  "scale": 0.45
+ },
+ "Rebel Vanguard": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc16938989695951638671F48FA301357905B28DA35A03658DFA39154DBFE",
+  "diff": "httpssteamusercontentaakamaihdnetugc1693898969595167629F6848B3709DBBA338BB7ACC845ADED4D9859C85B",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 1.0,
+   "g": 1.0,
+   "b": 1.0
+  },
+  "scale": 0.45
+ },
+ "Golan Arms Turret": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc1593666545413429621D6FCC9C431C5CB0E566F62FD65037F6FBEF11C62",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734305674897B8A09D22AFF2C2D30F4C1D41C401597ED67E2",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 1.0,
+   "g": 1.0,
+   "b": 1.0
+  },
+  "scale": 1.0
+ },
+ "X-Wing": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc20396037267851780675B3ECEEB5F93A3D7C8F70351BF894258E55AAB89",
+  "diff": "httpssteamusercontentaakamaihdnetugc20396037937712454830754A354ED7DAF3E17AC494A7F4D8BA575AA8F6D",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 0.9999998,
+   "g": 0.992160261,
+   "b": 0.9999998
+  },
+  "scale": 0.22
+ },
+ "Shield Generator": {
+  "mesh": "httpssteamusercontentaakamaihdnetugc1593666545413421074F703369EAA20C22A576872E2286B3BD5C74AC688",
+  "diff": "httpssteamusercontentaakamaihdnetugc780752163734305674897B8A09D22AFF2C2D30F4C1D41C401597ED67E2",
+  "norm": "",
+  "kind": "unit",
+  "color": {
+   "r": 0.9999998,
+   "g": 0.992160261,
+   "b": 0.9999998
+  },
+  "scale": 0.35
+ },
+ "Rebel Transport": {
+  "mesh": "ABF60953388B9AE0DF3FA7CA3A0419",
+  "diff": "7FACBD794EB6FB0DAF0F846147B60C",
+  "norm": "",
+  "kind": "unit",
+  "scale": 0.3
+ }
+}

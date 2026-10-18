@@ -1,0 +1,157 @@
+[
+ {
+  "sistema": "RYLOTH",
+  "lealta_iniziale": "R",
+  "img": "res://assets/cards/sonda_ryloth.jpg"
+ },
+ {
+  "sistema": "BOTHAWUI",
+  "lealta_iniziale": "R",
+  "img": "res://assets/cards/sonda_bothawui.jpg"
+ },
+ {
+  "sistema": "RODIA",
+  "lealta_iniziale": "I",
+  "img": "res://assets/cards/sonda_rodia.jpg"
+ },
+ {
+  "sistema": "MUSTAFAR",
+  "lealta_iniziale": "I",
+  "img": "res://assets/cards/sonda_mustafar.jpg"
+ },
+ {
+  "sistema": "BESPIN",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_bespin.jpg"
+ },
+ {
+  "sistema": "NAL HUTTA",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_nal_hutta.jpg"
+ },
+ {
+  "sistema": "DAGOBAH",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_dagobah.jpg"
+ },
+ {
+  "sistema": "DATHOMIR",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_dathomir.jpg"
+ },
+ {
+  "sistema": "ALDERAAN",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_alderaan.jpg"
+ },
+ {
+  "sistema": "MALASTARE",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_malastare.jpg"
+ },
+ {
+  "sistema": "HOTH",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_hoth.jpg"
+ },
+ {
+  "sistema": "CATO NEIMOIDIA",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_cato_neimoidia.jpg"
+ },
+ {
+  "sistema": "ORD MANTELL",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_ord_mantell.jpg"
+ },
+ {
+  "sistema": "DANTOOINE",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_dantooine.jpg"
+ },
+ {
+  "sistema": "UTAPAU",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_utapau.jpg"
+ },
+ {
+  "sistema": "GEONOSIS",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_geonosis.jpg"
+ },
+ {
+  "sistema": "FELUCIA",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_felucia.jpg"
+ },
+ {
+  "sistema": "ENDOR",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_endor.jpg"
+ },
+ {
+  "sistema": "TATOOINE",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_tatooine.jpg"
+ },
+ {
+  "sistema": "ILUM",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_ilum.jpg"
+ },
+ {
+  "sistema": "YAVIN",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_yavin.jpg"
+ },
+ {
+  "sistema": "KESSEL",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_kessel.jpg"
+ },
+ {
+  "sistema": "TOYDARIA",
+  "lealta_iniziale": "",
+  "img": "res://assets/cards/sonda_toydaria.jpg"
+ },
+ {
+  "sistema": "SULLUST",
+  "lealta_iniziale": "I",
+  "img": "res://assets/cards/sonda_sullust.jpg"
+ },
+ {
+  "sistema": "MANDALORE",
+  "lealta_iniziale": "I",
+  "img": "res://assets/cards/sonda_mandalore.jpg"
+ },
+ {
+  "sistema": "CORELLIA",
+  "lealta_iniziale": "I",
+  "img": "res://assets/cards/sonda_corellia.jpg"
+ },
+ {
+  "sistema": "MON CALAMARI",
+  "lealta_iniziale": "R",
+  "img": "res://assets/cards/sonda_mon_calamari.jpg"
+ },
+ {
+  "sistema": "KASHYYYK",
+  "lealta_iniziale": "R",
+  "img": "res://assets/cards/sonda_kashyyyk.jpg"
+ },
+ {
+  "sistema": "NABOO",
+  "lealta_iniziale": "R",
+  "img": "res://assets/cards/sonda_naboo.jpg"
+ },
+ {
+  "sistema": "SALEUCAMI",
+  "lealta_iniziale": "I",
+  "img": "res://assets/cards/sonda_saleucami.jpg"
+ },
+ {
+  "sistema": "MYGEETO",
+  "lealta_iniziale": "I",
+  "img": "res://assets/cards/sonda_mygeeto.jpg"
+ }
+]

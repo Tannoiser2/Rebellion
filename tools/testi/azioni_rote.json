@@ -1,0 +1,243 @@
+[
+  {
+    "crop": null,
+    "tts": "ActionCard_imp_rote_ambitions_of_power.jpg",
+    "name_en": "AMBITIONS OF POWER",
+    "name_it": "AMBIZIONI DI POTERE",
+    "text_en": "Use when you have more than 8 leaders in your leader pool. Until the end of the game, your leader pool limit is increased by 1.",
+    "text_it": "Usa questa carta quando hai più di 8 leader nella tua riserva. Fino alla fine della partita, il limite della tua riserva dei leader è aumentato di 1.",
+    "faction": "Imperial",
+    "starting": false,
+    "timing_en": "Special",
+    "timing_it": "Speciale",
+    "leaders": [
+      "Admiral Motti",
+      "Jabba the Hutt"
+    ]
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_imp_rote_early_promotion.jpg",
+    "name_en": "EARLY PROMOTION",
+    "name_it": "PROMOZIONE ANTICIPATA",
+    "text_en": "Either draw 1 starting action card or recruit Admiral Motti.\nIf you recruit Admiral Motti, place him and Grand Moff Tarkin in an Imperial system.",
+    "text_it": "Pesca 1 carta azione iniziale oppure recluta l'Ammiraglio Motti.\nSe recluti l'Ammiraglio Motti, collocalo insieme al Grand Moff Tarkin in un sistema Imperiale.",
+    "faction": "Imperial",
+    "starting": true,
+    "timing_en": "Immediate",
+    "timing_it": "Immediata",
+    "leaders": [
+      "Admiral Motti"
+    ]
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_imp_rote_good_intel.jpg",
+    "name_en": "GOOD INTEL",
+    "name_it": "INFORMAZIONI VALIDE",
+    "text_en": "The Rebel player must keep his hand of tactic cards faceup.\nIf using advanced tactic cards, you do not choose a tactic card until after the Rebel player's card has been revealed each round.",
+    "text_it": "Il giocatore Ribelle deve tenere la sua mano di carte tattica a faccia in su.\nSe si usano le carte tattica avanzate, a ogni round scegli la tua carta tattica solo dopo che la carta del giocatore Ribelle è stata rivelata.",
+    "faction": "Imperial",
+    "starting": false,
+    "timing_en": "Start of Combat",
+    "timing_it": "Inizio del Combattimento",
+    "leaders": [
+      "Soontir Fel",
+      "Colonel Yularen"
+    ]
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_imp_rote_lord_vader_s_orders.jpg",
+    "name_en": "LORD VADER'S ORDERS",
+    "name_it": "ORDINI DI LORD VADER",
+    "text_en": "Look at the top 3 cards of the objective deck, then place them on top of the deck in any order.",
+    "text_it": "Guarda le prime 3 carte del mazzo degli obiettivi, poi rimettile in cima al mazzo in qualsiasi ordine.",
+    "faction": "Imperial",
+    "starting": false,
+    "timing_en": "Immediate",
+    "timing_it": "Immediata",
+    "leaders": [
+      "Director Krennic"
+    ]
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_imp_rote_post_bounty.jpg",
+    "name_en": "POST BOUNTY",
+    "name_it": "METTERE UNA TAGLIA",
+    "text_en": "Use after any leader fails a mission in this leader's system.\nAttach the bounty ring to any Rebel leader that does not have a ring in this system. When that leader is captured, the Rebels lose 1 reputation.",
+    "text_it": "Usa questa carta dopo che un leader qualsiasi ha fallito una missione nel sistema in cui è presente questo leader.\nAggiungi l'anello Taglia a un leader Ribelle in questo sistema che non abbia un anello. Quando quel leader viene catturato, i Ribelli perdono 1 reputazione.",
+    "faction": "Imperial",
+    "starting": false,
+    "timing_en": "Special",
+    "timing_it": "Speciale",
+    "leaders": [
+      "Jabba the Hutt"
+    ]
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_imp_rote_secret_facility.jpg",
+    "name_en": "SECRET FACILITY",
+    "name_it": "STRUTTURA SEGRETA",
+    "text_en": "Place 1 of your probe cards facedown below this card. At the start your turn in the Command Phase, you may reveal that probe card to gain 1 [triangolo] unit and 1 Shield Bunker in the card's system. Then resolve a combat in that system and discard this action card.",
+    "text_it": "Colloca 1 delle tue carte sonda a faccia in giù sotto questa carta. All'inizio del tuo turno nella Fase di Comando, puoi rivelare quella carta sonda per ottenere 1 unità [triangolo] e 1 Bunker Scudo nel sistema della carta. Poi risolvi un combattimento in quel sistema e scarta questa carta azione.",
+    "faction": "Imperial",
+    "starting": false,
+    "timing_en": "Immediate",
+    "timing_it": "Immediata",
+    "leaders": [
+      "Director Krennic",
+      "Krennic's Finest"
+    ]
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_imp_rote_sweep_the_area.jpg",
+    "name_en": "SWEEP THE AREA",
+    "name_it": "RASTRELLARE LA ZONA",
+    "text_en": "Place 1 of your probe cards facedown below this card. At the end of the Command Phase, you may reveal the probe card to capture a leader in that card's system. Then move that leader to the closest system that contains an Imperial unit and discard this action card.",
+    "text_it": "Colloca 1 delle tue carte sonda a faccia in giù sotto questa carta. Alla fine della Fase di Comando, puoi rivelare la carta sonda per catturare un leader nel sistema di quella carta. Poi muovi quel leader fino al sistema più vicino che contiene un'unità Imperiale e scarta questa carta azione.",
+    "faction": "Imperial",
+    "starting": false,
+    "timing_en": "Immediate",
+    "timing_it": "Immediata",
+    "leaders": [
+      "Krennic's Finest"
+    ]
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_imp_rote_track_them.jpg",
+    "name_en": "TRACK THEM",
+    "name_it": "SEGUITE LE LORO TRACCE",
+    "text_en": "Use after a Rebel unit retreats from combat. Choose an Imperial leader in the combat's system and return it to your leader pool.",
+    "text_it": "Usa questa carta dopo che un'unità Ribelle si è ritirata da un combattimento. Scegli un leader Imperiale nel sistema del combattimento e rimettilo nella tua riserva dei leader.",
+    "faction": "Imperial",
+    "starting": true,
+    "timing_en": "Special",
+    "timing_it": "Speciale",
+    "leaders": []
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_reb_rote_baze_s_loyalty.jpg",
+    "name_en": "BAZE'S LOYALTY",
+    "name_it": "LA LEALTÀ DI BAZE",
+    "text_en": "Destroy 2-health worth of units in this system.",
+    "text_it": "Distruggi unità in questo sistema per un valore di salute totale pari a 2.",
+    "faction": "Rebel",
+    "starting": false,
+    "timing_en": "Start of Combat",
+    "timing_it": "Inizio del Combattimento",
+    "leaders": [
+      "Chirrut Imwe"
+    ]
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_reb_rote_false_orders.jpg",
+    "name_en": "FALSE ORDERS",
+    "name_it": "ORDINI FALSI",
+    "text_en": "Use at the end of the Assignment Phase.\nChoose 1 Imperial leader that is on a mission by itself. Return that leader to the leader pool and return its mission card to the Imperial player's hand.",
+    "text_it": "Usa questa carta alla fine della Fase di Assegnazione.\nScegli 1 leader Imperiale assegnato da solo a una missione. Rimetti quel leader nella riserva dei leader e rimetti la sua carta missione nella mano del giocatore Imperiale.",
+    "faction": "Rebel",
+    "starting": true,
+    "timing_en": "Special",
+    "timing_it": "Speciale",
+    "leaders": []
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_reb_rote_he_means_well.jpg",
+    "name_en": "HE MEANS WELL",
+    "name_it": "LO FA A FIN DI BENE",
+    "text_en": "Attach the K-2SO ring to any leader that does not have a ring.\nThe attached leader gains 1 minor spec ops ([opspec]) icon and 1 minor intel ([intel]) icon.",
+    "text_it": "Aggiungi l'anello K-2SO a un leader qualsiasi che non abbia un anello.\nQuel leader ottiene 1 icona minore di operazione ([opspec]) e 1 icona minore di intelligence ([intel]).",
+    "faction": "Rebel",
+    "starting": false,
+    "timing_en": "Immediate",
+    "timing_it": "Immediata",
+    "leaders": [
+      "Cassian Andor"
+    ]
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_reb_rote_rebel_extremist.jpg",
+    "name_en": "REBEL EXTREMIST",
+    "name_it": "ESTREMISTA RIBELLE",
+    "text_en": "Either draw 1 starting action card or recruit Saw Gerrera.\nIf you recruit Saw Gerrera, lose 1 reputation and place him in your leader pool.",
+    "text_it": "Pesca 1 carta azione iniziale oppure recluta Saw Gerrera.\nSe recluti Saw Gerrera, perdi 1 reputazione e collocalo nella tua riserva dei leader.",
+    "faction": "Rebel",
+    "starting": true,
+    "timing_en": "Immediate",
+    "timing_it": "Immediata",
+    "leaders": [
+      "Saw Gerrera"
+    ]
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_reb_rote_something_to_fight_for.jpg",
+    "name_en": "SOMETHING TO FIGHT FOR",
+    "name_it": "QUALCOSA PER CUI COMBATTERE",
+    "text_en": "After you win a combat, choose an objective card in your discard pile and place it on top of your deck.",
+    "text_it": "Dopo che hai vinto un combattimento, scegli una carta obiettivo nella tua pila degli scarti e collocala in cima al tuo mazzo.",
+    "faction": "Rebel",
+    "starting": false,
+    "timing_en": "Special",
+    "timing_it": "Speciale",
+    "leaders": [
+      "Jyn Erso"
+    ]
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_reb_rote_son_of_skywalker.jpg",
+    "name_en": "SON OF SKYWALKER",
+    "name_it": "FIGLIO DI SKYWALKER",
+    "text_en": "After you succeed at a mission in this leader's system, search your mission deck for the “Seek Yoda,” “Daring Rescue,” or “Critical Rescue” card and place it in your hand. Then shuffle your mission deck.",
+    "text_it": "Dopo che hai risolto con successo una missione nel sistema in cui è presente questo leader, cerca 1 carta tra Alla Ricerca di Yoda, Salvataggio Temerario o Salvataggio Critico nel tuo mazzo delle missioni e collocala nella tua mano, poi rimescola il tuo mazzo delle missioni.",
+    "faction": "Rebel",
+    "starting": false,
+    "timing_en": "Special",
+    "timing_it": "Speciale",
+    "leaders": [
+      "Luke Skywalker"
+    ]
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_reb_rote_trust_in_the_force.jpg",
+    "name_en": "TRUST IN THE FORCE",
+    "name_it": "ABBI FEDE NELLA FORZA",
+    "text_en": "Place this leader in any subjugated system. Gain 1 loyalty and destroy 1 [triangolo] ground unit in the system.",
+    "text_it": "Colloca questo leader in un sistema sottomesso qualsiasi. Ottieni 1 fedeltà e distruggi 1 unità terrestre [triangolo] nel sistema.",
+    "faction": "Rebel",
+    "starting": false,
+    "timing_en": "Assignment",
+    "timing_it": "Assegnazione",
+    "leaders": [
+      "Jyn Erso",
+      "Chirrut Imwe"
+    ]
+  },
+  {
+    "crop": null,
+    "tts": "ActionCard_reb_rote_under_the_radar.jpg",
+    "name_en": "UNDER THE RADAR",
+    "name_it": "SOTTO I RADAR",
+    "text_en": "Look at the top 4 cards of the probe deck. Keep 1 of those cards facedown below this card and place the others on the top or bottom of the deck in any order. At the start of your turn in the Command Phase, you may return the probe card to the top of the deck.",
+    "text_it": "Guarda le prime 4 carte del mazzo delle sonde. Tieni 1 di quelle carte a faccia in giù sotto questa carta e colloca le altre in cima o in fondo al mazzo in qualsiasi ordine. All'inizio del tuo turno nella Fase di Comando, puoi rimettere la carta sonda in cima al mazzo.",
+    "faction": "Rebel",
+    "starting": false,
+    "timing_en": "Immediate",
+    "timing_it": "Immediata",
+    "leaders": [
+      "Cassian Andor",
+      "Saw Gerrera"
+    ]
+  }
+]

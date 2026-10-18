@@ -1,0 +1,313 @@
+[
+ {
+  "crop": "Carte_Tattica_Spaziali_00.png",
+  "tts": "TacticCard__base_unstoppable_assault_2.jpg",
+  "name_en": "UNSTOPPABLE ASSAULT",
+  "name_it": "ASSALTO INARRESTABILE",
+  "text_en": "During this space battle step, your opponent cannot block damage.",
+  "text_it": "Durante questo passo di battaglia spaziale, il tuo avversario non può bloccare danni.",
+  "theater": "spazio",
+  "special_cost": true
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_01.png",
+  "tts": "TacticCard__base_onslaught_2.jpg",
+  "name_en": "ONSLAUGHT",
+  "name_it": "MASSACRO",
+  "text_en": "Deal 1 damage to up to 2 different ships.",
+  "text_it": "Infliggi 1 danno a un massimo di 2 unità navali.",
+  "theater": "spazio",
+  "special_cost": true
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_02.png",
+  "tts": "TacticCard__base_defensive_formation_4.jpg",
+  "name_en": "DEFENSIVE FORMATION",
+  "name_it": "FORMAZIONE DIFENSIVA",
+  "text_en": "Block 1 damage.",
+  "text_it": "Blocca 1 danno.",
+  "theater": "spazio",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_03.png",
+  "tts": "TacticCard__base_defensive_formation_5.jpg",
+  "name_en": "DEFENSIVE FORMATION",
+  "name_it": "FORMAZIONE DIFENSIVA",
+  "text_en": "Block 1 damage.",
+  "text_it": "Blocca 1 danno.",
+  "theater": "spazio",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_04.png",
+  "tts": "TacticCard__base_critical_hit_3.jpg",
+  "name_en": "CRITICAL HIT",
+  "name_it": "COLPO CRITICO",
+  "text_en": "Deal 1 damage.",
+  "text_it": "Infliggi 1 danno.",
+  "theater": "spazio",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_05.png",
+  "tts": "TacticCard__base_critical_hit_4.jpg",
+  "name_en": "CRITICAL HIT",
+  "name_it": "COLPO CRITICO",
+  "text_en": "Deal 1 damage.",
+  "text_it": "Infliggi 1 danno.",
+  "theater": "spazio",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_06.png",
+  "tts": "TacticCard__base_concentrate_fire_3.jpg",
+  "name_en": "CONCENTRATE FIRE",
+  "name_it": "CONCENTRARE IL FUOCO",
+  "text_en": "Reroll up to 2 of your dice.",
+  "text_it": "Ripeti il tiro di un massimo di 2 tuoi dadi.",
+  "theater": "spazio",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_07.png",
+  "tts": "TacticCard__base_take_it_down_2.jpg",
+  "name_en": "TAKE IT DOWN",
+  "name_it": "ABBATTIMENTO",
+  "text_en": "Deal 2 damage to 1 ship.",
+  "text_it": "Infliggi 2 danni a 1 unità navale.",
+  "theater": "spazio",
+  "special_cost": true
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_08.png",
+  "tts": "TacticCard__base_outmaneuver.jpg",
+  "name_en": "OUTMANEUVER",
+  "name_it": "MANOVRABILITÀ SUPERIORE",
+  "text_en": "Discard 1 space tactic card from your hand to block up to 2 damage.",
+  "text_it": "Scarta 1 carta tattica spaziale dalla tua mano per bloccare fino a 2 danni.",
+  "theater": "spazio",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_09.png",
+  "tts": "TacticCard__base_brilliant_strategy_2.jpg",
+  "name_en": "BRILLIANT STRATEGY",
+  "name_it": "STRATEGIA GENIALE",
+  "text_en": "Draw 2 tactic cards from either deck, or 1 from each.",
+  "text_it": "Pesca 2 carte tattica da un mazzo qualsiasi oppure 1 da ciascun mazzo.",
+  "theater": "spazio",
+  "special_cost": true
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_10.png",
+  "tts": "TacticCard__base_defensive_formation_6.jpg",
+  "name_en": "DEFENSIVE FORMATION",
+  "name_it": "FORMAZIONE DIFENSIVA",
+  "text_en": "Block 1 damage.",
+  "text_it": "Blocca 1 danno.",
+  "theater": "spazio",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_11.png",
+  "tts": "TacticCard__base_concentrate_fire_4.jpg",
+  "name_en": "CONCENTRATE FIRE",
+  "name_it": "CONCENTRARE IL FUOCO",
+  "text_en": "Reroll up to 2 of your dice.",
+  "text_it": "Ripeti il tiro di un massimo di 2 tuoi dadi.",
+  "theater": "spazio",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_12.png",
+  "tts": "TacticCard__base_outmaneuver_2.jpg",
+  "name_en": "OUTMANEUVER",
+  "name_it": "MANOVRABILITÀ SUPERIORE",
+  "text_en": "Discard 1 space tactic card from your hand to block up to 2 damage.",
+  "text_it": "Scarta 1 carta tattica spaziale dalla tua mano per bloccare fino a 2 danni.",
+  "theater": "spazio",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_13.png",
+  "tts": "TacticCard__base_take_it_down_3.jpg",
+  "name_en": "TAKE IT DOWN",
+  "name_it": "ABBATTIMENTO",
+  "text_en": "Deal 2 damage to 1 ship.",
+  "text_it": "Infliggi 2 danni a 1 unità navale.",
+  "theater": "spazio",
+  "special_cost": true
+ },
+ {
+  "crop": "Carte_Tattica_Spaziali_14.png",
+  "tts": "TacticCard__base_no_escape.jpg",
+  "name_en": "NO ESCAPE",
+  "name_it": "NESSUNA VIA DI FUGA",
+  "text_en": "During this combat round, your opponent cannot retreat.",
+  "text_it": "Durante questo round di combattimento, il tuo avversario non può ritirarsi.",
+  "theater": "spazio",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Azione_-_Ribelli_-_Iniziali_06.png",
+  "tts": "TacticCard__base_outmaneuver.jpg",
+  "name_en": "OUTMANEUVER",
+  "name_it": "MANOVRABILITÀ SUPERIORE",
+  "text_en": "Discard 1 space tactic card from your hand to block up to 2 damage.",
+  "text_it": "Scarta 1 carta tattica spaziale dalla tua mano per bloccare fino a 2 danni.",
+  "theater": "spazio",
+  "special_cost": false,
+  "note": "Carta tattica spaziale finita per errore tra le carte azione Ribelli iniziali (ritaglio Carte_Azione_-_Ribelli_-_Iniziali_06.png): Manovrabilità Superiore / Outmaneuver. Probabile terza copia o doppia scansione: il mazzo TTS ha solo 2 Outmaneuver."
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_00.png",
+  "tts": "TacticCard__base_defensive_formation.jpg",
+  "name_en": "DEFENSIVE FORMATION",
+  "name_it": "FORMAZIONE DIFENSIVA",
+  "text_en": "Block 1 damage.",
+  "text_it": "Blocca 1 danno.",
+  "theater": "terra",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_01.png",
+  "tts": "TacticCard__base_critical_hit.jpg",
+  "name_en": "CRITICAL HIT",
+  "name_it": "COLPO CRITICO",
+  "text_en": "Deal 1 damage.",
+  "text_it": "Infliggi 1 danno.",
+  "theater": "terra",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_02.png",
+  "tts": "TacticCard__base_dig_in.jpg",
+  "name_en": "DIG IN",
+  "name_it": "TRINCEA",
+  "text_en": "Discard 1 ground tactic card from your hand to block up to 2 damage.",
+  "text_it": "Scarta 1 carta tattica terrestre dalla tua mano per bloccare fino a 2 danni.",
+  "theater": "terra",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_03.png",
+  "tts": "TacticCard__base_dig_in_2.jpg",
+  "name_en": "DIG IN",
+  "name_it": "TRINCEA",
+  "text_en": "Discard 1 ground tactic card from your hand to block up to 2 damage.",
+  "text_it": "Scarta 1 carta tattica terrestre dalla tua mano per bloccare fino a 2 danni.",
+  "theater": "terra",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_04.png",
+  "tts": "TacticCard__base_defensive_formation_2.jpg",
+  "name_en": "DEFENSIVE FORMATION",
+  "name_it": "FORMAZIONE DIFENSIVA",
+  "text_en": "Block 1 damage.",
+  "text_it": "Blocca 1 danno.",
+  "theater": "terra",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_05.png",
+  "tts": "TacticCard__base_take_it_down.jpg",
+  "name_en": "TAKE IT DOWN",
+  "name_it": "ABBATTIMENTO",
+  "text_en": "Deal 2 damage to 1 ground unit.",
+  "text_it": "Infliggi 2 danni a 1 unità terrestre.",
+  "theater": "terra",
+  "special_cost": true
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_06.png",
+  "tts": "TacticCard__base_unstoppable_assault.jpg",
+  "name_en": "UNSTOPPABLE ASSAULT",
+  "name_it": "ASSALTO INARRESTABILE",
+  "text_en": "During this ground battle step, your opponent cannot block damage.",
+  "text_it": "Durante questo passo di battaglia terrestre, il tuo avversario non può bloccare danni.",
+  "theater": "terra",
+  "special_cost": true
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_07.png",
+  "tts": "TacticCard__base_critical_hit_2.jpg",
+  "name_en": "CRITICAL HIT",
+  "name_it": "COLPO CRITICO",
+  "text_en": "Deal 1 damage.",
+  "text_it": "Infliggi 1 danno.",
+  "theater": "terra",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_08.png",
+  "tts": "TacticCard__base_concentrate_fire.jpg",
+  "name_en": "CONCENTRATE FIRE",
+  "name_it": "CONCENTRARE IL FUOCO",
+  "text_en": "Reroll up to 2 of your dice.",
+  "text_it": "Ripeti il tiro di un massimo di 2 tuoi dadi.",
+  "theater": "terra",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_09.png",
+  "tts": "TacticCard__base_onslaught.jpg",
+  "name_en": "ONSLAUGHT",
+  "name_it": "MASSACRO",
+  "text_en": "Deal 1 damage to up to 2 different ground units.",
+  "text_it": "Infliggi 1 danno a un massimo di 2 unità terrestri.",
+  "theater": "terra",
+  "special_cost": true
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_10.png",
+  "tts": "TacticCard__base_escape_plan.jpg",
+  "name_en": "ESCAPE PLAN",
+  "name_it": "PIANO DI FUGA",
+  "text_en": "During this combat round, your units can retreat ignoring transport restrictions.",
+  "text_it": "Durante questo round di combattimento, le tue unità possono ritirarsi ignorando le restrizioni di trasporto.",
+  "theater": "terra",
+  "special_cost": true
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_11.png",
+  "tts": "TacticCard__base_defensive_formation_3.jpg",
+  "name_en": "DEFENSIVE FORMATION",
+  "name_it": "FORMAZIONE DIFENSIVA",
+  "text_en": "Block 1 damage.",
+  "text_it": "Blocca 1 danno.",
+  "theater": "terra",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_12.png",
+  "tts": "TacticCard__base_concentrate_fire_2.jpg",
+  "name_en": "CONCENTRATE FIRE",
+  "name_it": "CONCENTRARE IL FUOCO",
+  "text_en": "Reroll up to 2 of your dice.",
+  "text_it": "Ripeti il tiro di un massimo di 2 tuoi dadi.",
+  "theater": "terra",
+  "special_cost": false
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_13.png",
+  "tts": "TacticCard__base_bombardment.jpg",
+  "name_en": "BOMBARDMENT",
+  "name_it": "BOMBARDAMENTO",
+  "text_en": "Deal damage equal to the red attack value of 1 of your ships.",
+  "text_it": "Infliggi un ammontare di danni pari al valore di attacco rosso di 1 tua nave.",
+  "theater": "terra",
+  "special_cost": true
+ },
+ {
+  "crop": "Carte_Tattica_Terrestri_14.png",
+  "tts": "TacticCard__base_brilliant_strategy.jpg",
+  "name_en": "BRILLIANT STRATEGY",
+  "name_it": "STRATEGIA GENIALE",
+  "text_en": "Draw 2 tactic cards from either deck, or 1 from each.",
+  "text_it": "Pesca 2 carte tattica da un mazzo qualsiasi oppure 1 da ciascun mazzo.",
+  "theater": "terra",
+  "special_cost": true
+ }
+]

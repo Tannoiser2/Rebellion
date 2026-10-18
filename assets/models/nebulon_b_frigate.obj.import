@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ceqni1wf5hf7x"
+path="res://.godot/imported/nebulon_b_frigate.obj-67518b2448a7f059784df269c38e2ebe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/nebulon_b_frigate.obj-67518b2448a7f059784df269c38e2ebe.mesh"]
+
+source_file="res://assets/models/nebulon_b_frigate.obj"
+dest_files=["res://.godot/imported/nebulon_b_frigate.obj-67518b2448a7f059784df269c38e2ebe.mesh", "res://.godot/imported/nebulon_b_frigate.obj-67518b2448a7f059784df269c38e2ebe.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
