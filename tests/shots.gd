@@ -16,7 +16,8 @@ func _initialize() -> void:
 	if out == "":
 		out = "user://shots"
 	DirAccess.make_dir_recursive_absolute(out)
-	root.size = Vector2i(1920, 1080)
+	if OS.get_environment("RB_W") != "":
+		root.size = Vector2i(int(OS.get_environment("RB_W")), 1080)
 	var scene: PackedScene = load("res://scenes/Main.tscn")
 	main = scene.instantiate()
 	root.add_child(main)

@@ -8,8 +8,8 @@ var t := 0.0
 func _ready() -> void:
 	var g := RandomNumberGenerator.new()
 	g.seed = 1138
-	for i in 420:
-		stars.append({"p": Vector2(g.randf() * 1920, g.randf() * 1080), "z": g.randi_range(1, 3), "b": g.randf_range(0.35, 1.0), "ph": g.randf() * TAU})
+	for i in 600:
+		stars.append({"p": Vector2(g.randf(), g.randf()), "z": g.randi_range(1, 3), "b": g.randf_range(0.35, 1.0), "ph": g.randf() * TAU})
 	set_process(true)
 
 
@@ -27,8 +27,8 @@ func _draw() -> void:
 	for s in stars:
 		var z: int = s["z"]
 		var p: Vector2 = s["p"]
-		var x := fposmod(p.x - t * 4.0 * z, sz.x)
-		var y := fposmod(p.y, sz.y)
+		var x := fposmod(p.x * sz.x - t * 4.0 * z, sz.x)
+		var y := p.y * sz.y
 		var tw := 0.75 + 0.25 * sin(t * 1.7 + s["ph"])
 		var c := Color(0.85, 0.92, 1.0, s["b"] * tw * (0.45 + 0.25 * z))
 		draw_circle(Vector2(x, y), 0.5 + 0.45 * z, c)

@@ -7,10 +7,17 @@ extends Control
 
 const LX := 10.0
 const LW := 410.0
-const RX := 1520.0
 const RW := 390.0
 const MX := LX + LW + 10.0
-const MW := RX - MX - 10.0
+# dipendono dalla larghezza dello schermo (con aspect «expand» la finestra può essere più larga di 1920)
+var SW := 1920.0
+var SH := 1080.0
+var RX := 1520.0
+var MW := 1080.0
+var top_panel: PanelContainer
+var left_panel: PanelContainer
+var log_panel: PanelContainer
+var online_box: PanelContainer
 
 var main
 var config: Dictionary
@@ -54,7 +61,8 @@ var _refresh_queued := false
 
 func _ready() -> void:
 	set_anchors_preset(Control.PRESET_FULL_RECT)
-	size = Vector2(1920, 1080)
+	_measure()
+	size = Vector2(SW, SH)
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
 	online = config.get("online", null)
 
@@ -93,14 +101,15 @@ func _ready() -> void:
 	_build_decision()
 	_build_banner()
 	modal = Control.new()
-	modal.size = Vector2(1920, 1080)
+	modal.size = Vector2(SW, SH)
 	modal.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(modal)
 	zoom_layer = Control.new()
-	zoom_layer.size = Vector2(1920, 1080)
+	zoom_layer.size = Vector2(SW, SH)
 	zoom_layer.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(zoom_layer)
 	_build_online_label()
+	get_viewport().size_changed.connect(_layout)
 
 	engine.changed.connect(_queue_refresh)
 	engine.log_added.connect(_on_log)
@@ -112,6 +121,40 @@ func _ready() -> void:
 		online_status("Riprendo la partita dal punto in cui era…")
 		Audio.suspended = true
 	engine.run.call_deferred()
+
+
+func _measure() -> void:
+	var vs := get_viewport_rect().size
+	SW = maxf(vs.x, 1280.0)
+	SH = maxf(vs.y, 720.0)
+	RX = SW - RW - 10.0
+	MW = RX - MX - 10.0
+
+
+## Ridispone i pannelli quando cambia la finestra (schermi larghi, schermo intero, browser).
+func _layout() -> void:
+	_measure()
+	size = Vector2(SW, SH)
+	modal.size = size
+	zoom_layer.size = size
+	top_panel.position = Vector2(MX, 8)
+	top_panel.size = Vector2(MW, 66)
+	top_panel.custom_minimum_size = top_panel.size
+	left_panel.size = Vector2(LW, SH - 16)
+	left_panel.custom_minimum_size = left_panel.size
+	info_panel.position = Vector2(RX, 8)
+	log_panel.position = Vector2(RX, 436)
+	log_panel.size = Vector2(RW, SH - 444)
+	log_panel.custom_minimum_size = log_panel.size
+	banner.position = Vector2(MX + 80, 86)
+	banner.custom_minimum_size = Vector2(MW - 160, 0)
+	online_box.position = Vector2(MX + 10, 84)
+	dec_panel.custom_minimum_size = Vector2(MW, 0)
+	dec_title.custom_minimum_size.x = MW - 40
+	if not pending.is_empty():
+		_render()
+	else:
+		_place_decision()
 
 
 func _exit_tree() -> void:
@@ -157,6 +200,7 @@ func _panel(pos: Vector2, sz: Vector2, margin := 14.0) -> PanelContainer:
 
 func _build_top() -> void:
 	var p := _panel(Vector2(MX, 8), Vector2(MW, 66), 10)
+	top_panel = p
 	var hb := HBoxContainer.new()
 	hb.add_theme_constant_override("separation", 14)
 	p.add_child(hb)
@@ -200,7 +244,8 @@ func _build_top() -> void:
 
 
 func _build_left() -> void:
-	var p := _panel(Vector2(LX, 8), Vector2(LW, 1064), 12)
+	var p := _panel(Vector2(LX, 8), Vector2(LW, SH - 16), 12)
+	left_panel = p
 	var vb := VBoxContainer.new()
 	vb.add_theme_constant_override("separation", 8)
 	p.add_child(vb)
@@ -233,7 +278,8 @@ func _build_right() -> void:
 	info_box.add_theme_constant_override("separation", 6)
 	info_box.custom_minimum_size = Vector2(RW - 40, 0)
 	sc.add_child(info_box)
-	var lp := _panel(Vector2(RX, 436), Vector2(RW, 636), 12)
+	var lp := _panel(Vector2(RX, 436), Vector2(RW, SH - 444), 12)
+	log_panel = lp
 	var vb := VBoxContainer.new()
 	lp.add_child(vb)
 	vb.add_child(UI.title("Cronaca", 20, UI.HOLO))
@@ -267,8 +313,9 @@ func _build_decision() -> void:
 
 
 func _place_decision() -> void:
-	var h := minf(dec_panel.size.y, 640.0)
-	dec_panel.position = Vector2(MX, 1072 - h)
+	dec_panel.size.x = MW
+	var h := minf(dec_panel.size.y, SH - 440.0)
+	dec_panel.position = Vector2(MX, SH - 8 - h)
 
 
 func _build_banner() -> void:
@@ -834,7 +881,7 @@ func _on_decision(req: Dictionary) -> void:
 
 func _curtain(f: String) -> void:
 	var layer := Control.new()
-	layer.size = Vector2(1920, 1080)
+	layer.size = Vector2(SW, SH)
 	layer.mouse_filter = Control.MOUSE_FILTER_STOP
 	modal.add_child(layer)
 	var shade := ColorRect.new()
@@ -843,7 +890,7 @@ func _curtain(f: String) -> void:
 	layer.add_child(shade)
 	var vb := VBoxContainer.new()
 	vb.add_theme_constant_override("separation", 24)
-	vb.position = Vector2(560, 380)
+	vb.position = Vector2((SW - 800) / 2, SH * 0.35)
 	vb.custom_minimum_size = Vector2(800, 0)
 	layer.add_child(vb)
 	var t := UI.title("Tocca a: " + RBState.fname(f), 46, UI.fcolor(f))
@@ -1563,7 +1610,7 @@ func _on_game_end(winner: String, text: String) -> void:
 		online.finish()
 	Audio.play("win")
 	var layer := Control.new()
-	layer.size = Vector2(1920, 1080)
+	layer.size = Vector2(SW, SH)
 	layer.mouse_filter = Control.MOUSE_FILTER_STOP
 	modal.add_child(layer)
 	var shade := ColorRect.new()
@@ -1571,7 +1618,7 @@ func _on_game_end(winner: String, text: String) -> void:
 	shade.size = layer.size
 	layer.add_child(shade)
 	var p := UI.panel(34)
-	p.position = Vector2(560, 300)
+	p.position = Vector2((SW - 800) / 2, SH * 0.28)
 	p.custom_minimum_size = Vector2(800, 0)
 	p.add_theme_stylebox_override("panel", UI.holo(34, UI.fcolor(winner) if winner != "" else UI.HOLO))
 	layer.add_child(p)
@@ -1596,7 +1643,7 @@ func _on_game_end(winner: String, text: String) -> void:
 
 func _ask_quit() -> void:
 	var layer := Control.new()
-	layer.size = Vector2(1920, 1080)
+	layer.size = Vector2(SW, SH)
 	layer.mouse_filter = Control.MOUSE_FILTER_STOP
 	modal.add_child(layer)
 	var shade := ColorRect.new()
@@ -1604,7 +1651,7 @@ func _ask_quit() -> void:
 	shade.size = layer.size
 	layer.add_child(shade)
 	var p := UI.panel(30)
-	p.position = Vector2(660, 380)
+	p.position = Vector2((SW - 600) / 2, SH * 0.35)
 	p.custom_minimum_size = Vector2(600, 0)
 	layer.add_child(p)
 	var vb := VBoxContainer.new()
@@ -1629,6 +1676,7 @@ func _ask_quit() -> void:
 func _build_online_label() -> void:
 	var p := UI.panel(10)
 	p.position = Vector2(MX + 10, 84)
+	online_box = p
 	p.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	online_lbl = UI.label("", 19, UI.HOLO, UI.font_bold)
 	p.add_child(online_lbl)

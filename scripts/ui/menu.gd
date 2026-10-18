@@ -13,36 +13,43 @@ var fac_btns := {}
 var rote_box: VBoxContainer
 
 
+var SW := 1920.0
+var SH := 1080.0
+var on_x := 1400.0
+var on_y := 740.0
+
+
+func _on_resize() -> void:
+	# si ridisegna il menu con le stesse scelte (se non c'è il pannello online aperto)
+	if is_instance_valid(on_panel) or not is_inside_tree():
+		return
+	_store()
+	main.show_menu.call_deferred()
+
+
 func _ready() -> void:
-	size = Vector2(1920, 1080)
 	if main.menu_state.has("mode"):
 		mode = main.menu_state["mode"].duplicate()
 		level = main.menu_state["level"]
 		speed = main.menu_state["speed"]
 		opts = main.menu_state["opts"].duplicate()
-	# il tabellone della galassia sullo sfondo, sfumato
-	var art := TextureRect.new()
-	art.texture = UI.tex("res://assets/board/tabellone.jpg")
-	art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
-	art.position = Vector2(820, 120)
-	art.size = Vector2(1100, 560)
-	art.modulate = Color(1, 1, 1, 0.55)
-	add_child(art)
-	var fade := TextureRect.new()
-	var fg := GradientTexture2D.new()
-	var g2 := Gradient.new()
-	g2.set_color(0, Color(UI.BG, 1.0))
-	g2.set_color(1, Color(UI.BG, 0.0))
-	fg.gradient = g2
-	fg.fill_from = Vector2(0, 0)
-	fg.fill_to = Vector2(1, 0)
-	fade.texture = fg
-	fade.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	fade.stretch_mode = TextureRect.STRETCH_SCALE
-	fade.position = Vector2(820, 120)
-	fade.size = Vector2(420, 560)
-	add_child(fade)
+	# la copertina della scatola nella parte destra (si adatta a schermi larghi o alti)
+	var vs := get_viewport_rect().size
+	SW = maxf(vs.x, 1280.0)
+	SH = maxf(vs.y, 720.0)
+	size = Vector2(SW, SH)
+	var rx := 990.0
+	var rw := SW - rx - 40.0
+	var cs := minf(SH - 330.0, rw - 40.0)
+	var frame := PanelContainer.new()
+	frame.add_theme_stylebox_override("panel", UI.box(UI.BG, UI.STEEL_L, 2, 6, 6))
+	frame.position = Vector2(rx + (rw - cs) / 2 - 6, 34)
+	add_child(frame)
+	var cover := UI.icon_rect(UI.tex("res://assets/ui/copertina.jpg"), Vector2(cs, cs))
+	frame.add_child(cover)
+	on_x = rx + (rw - 460) / 2
+	on_y = 34 + cs + 30
+	get_viewport().size_changed.connect(_on_resize)
 
 	var t1 := UI.label("GUERRE STELLARI", 30, UI.GOLD, UI.font_title)
 	t1.position = Vector2(64, 34)
@@ -93,7 +100,7 @@ func _ready() -> void:
 
 	var btns := HBoxContainer.new()
 	btns.add_theme_constant_override("separation", 18)
-	btns.position = Vector2(48, 978)
+	btns.position = Vector2(48, SH - 102)
 	add_child(btns)
 	var b_start := _big_button("Inizia la partita", 420, true)
 	b_start.pressed.connect(_on_start)
@@ -109,12 +116,12 @@ func _ready() -> void:
 		btns.add_child(b_quit)
 
 	msg = UI.label("", 22, UI.BAD, UI.font_bold)
-	msg.position = Vector2(980, 1000)
+	msg.position = Vector2(48, SH - 140)
 	add_child(msg)
 
 	# gioco online
 	var on_box := UI.panel(24)
-	on_box.position = Vector2(1400, 740)
+	on_box.position = Vector2(on_x, on_y)
 	on_box.custom_minimum_size = Vector2(460, 0)
 	add_child(on_box)
 	var ovb := VBoxContainer.new()
@@ -129,7 +136,7 @@ func _ready() -> void:
 		_online_panel.call_deferred()
 
 	var credits := UI.label("Adattamento digitale non ufficiale per uso personale · Star Wars: Rebellion di Corey Konieczka · © Fantasy Flight Games, Asmodee · Star Wars © Lucasfilm Ltd. · F11 schermo intero", 15, UI.DIM)
-	credits.position = Vector2(48, 1054)
+	credits.position = Vector2(48, SH - 26)
 	add_child(credits)
 	_refresh_factions()
 
@@ -252,7 +259,7 @@ func _online_panel() -> void:
 	if is_instance_valid(on_panel):
 		on_panel.queue_free()
 	on_panel = Control.new()
-	on_panel.size = Vector2(1920, 1080)
+	on_panel.size = Vector2(SW, SH)
 	on_panel.mouse_filter = Control.MOUSE_FILTER_STOP
 	add_child(on_panel)
 	var shade := ColorRect.new()
@@ -260,7 +267,7 @@ func _online_panel() -> void:
 	shade.size = on_panel.size
 	on_panel.add_child(shade)
 	var box := UI.panel(34)
-	box.position = Vector2(560, 130)
+	box.position = Vector2((SW - 800) / 2, 130)
 	box.custom_minimum_size = Vector2(800, 0)
 	on_panel.add_child(box)
 	var vb := VBoxContainer.new()
