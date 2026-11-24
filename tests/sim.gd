@@ -21,7 +21,18 @@ func _init() -> void:
 		if g == 0:
 			print("opzioni: ", e.st.opt)
 		var t0 := Time.get_ticks_msec()
+		var info := {"p3": -1, "rev": -1, "fights": 0, "ds": 0}
+		var eng := e
+		e.log_added.connect(func(t):
+			if t.begins_with("[b]Round") and info["p3"] < 0 and not eng.st.base_revealed and eng.ais["I"].possible_bases().size() <= 3:
+				info["p3"] = eng.st.round)
+		e.fx.connect(func(k, d):
+			if k == "base" and info["rev"] < 0:
+				info["rev"] = eng.st.round
+			if k == "combat_start" and str(d.get("sys", "")) == eng.st.base and eng.st.base_revealed:
+				info["fights"] += 1)
 		await e.run()
+		print("  ≤3 possibili dal round %d, base rivelata al round %d, combattimenti alla base %d" % [info["p3"], info["rev"], info["fights"]])
 		wins[e.st.winner] += 1
 		print("  basi possibili a fine partita: %d, base %s, rivelata %s, leader I %d" % [e.ais["I"].possible_bases().size(), e.st.base, e.st.base_revealed, e.st.leader_count("I")])
 		rounds += e.st.round

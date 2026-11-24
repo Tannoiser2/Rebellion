@@ -285,6 +285,18 @@ func reveal_mission(f: String, idx: int) -> void:
 	var c: String = a["card"]
 	var b := bid(c)
 	var ls: Array = a["leaders"]
+	if f == "I" and not RB.card(c).get("risolvi", false):
+		for x in st.acts["I"].duplicate():
+			if bid(x) == "blindside":
+				var worth: bool = not st.leader_pool("R").is_empty()
+				if await e.ask_yes("I", "Usi «%s» prima di rivelare «%s»? I Ribelli non potranno contrastarla con i leader della riserva." % [RB.card_name(x), RB.card_name(c)], "use_blindside", "Sì", "No", {"ai_best": worth, "card": x}):
+					st.acts["I"].erase(x)
+					if not st.flags.has("blindside"):
+						st.flags["blindside"] = []
+					st.flags["blindside"].append(c)
+					say("L'Impero gioca «%s»: nessuno può contrastare questa missione dalla riserva." % RB.card_name(x))
+					e.emit_fx("card", {"id": x, "f": "I"})
+				break
 	say("%s rivela la missione [b]%s[/b] (%s)." % [fs(f), RB.card_name(c), e._leader_names(ls)])
 	e.emit_fx("card", {"id": c, "f": f})
 	if b == "contingency_plan":
@@ -458,6 +470,11 @@ func attempt(f: String, c: String, ls: Array, tgt: Dictionary) -> bool:
 	# anelli e carte che cambiano i dadi
 	mine_roll = await _dice_tricks(f, s, mine_roll, their_roll, true)
 	their_roll = await _dice_tricks(o, s, their_roll, mine_roll, false)
+	# R2-D2: un dado imperiale diventa vuoto
+	if f == "I":
+		mine_roll = await r2d2_check(s, mine_roll, RBState.successes(mine_roll) + my_bonus, RBState.successes(their_roll))
+	elif not their_roll.is_empty():
+		their_roll = await r2d2_check(s, their_roll, RBState.successes(their_roll), RBState.successes(mine_roll) + my_bonus)
 	var a_succ := RBState.successes(mine_roll) + my_bonus
 	var o_succ := RBState.successes(their_roll)
 	e.emit_fx("mission_dice", {"f": f, "mine": mine_roll, "theirs": their_roll, "a": a_succ, "o": o_succ, "card": c})
@@ -539,8 +556,42 @@ func _present(s: String, n: String) -> bool:
 
 
 ## R2-D2: dopo che l'Impero ha tirato in una missione nel sistema di R2-D2, un suo dado diventa vuoto.
-func r2d2_check(s: String, imp_roll: Array) -> Array:
+func r2d2_check(s: String, imp_roll: Array, imp_succ: int, reb_succ: int) -> Array:
+	var who := ""
+	for n in st.leaders_at(s, "R"):
+		if st.leaders[n]["ring"] == "r2d2" and _present(s, n):
+			who = n
+			break
+	if who == "" or imp_roll.is_empty():
+		return imp_roll
+	# il dado migliore dell'Impero (lo speciale vale 2 successi)
+	var best := -1
+	var bv := 0
+	for i in imp_roll.size():
+		var v := int(imp_roll[i]["v"] if imp_roll[i] is Dictionary else imp_roll[i])
+		var w := 2 if v == 3 else (1 if v in [1, 2] else 0)
+		if w > bv:
+			bv = w
+			best = i
+	if best < 0:
+		return imp_roll
+	# conviene all'IA solo se cambia l'esito della missione
+	var useful: bool = (f_imp_wins(imp_succ, reb_succ, true) != f_imp_wins(imp_succ - bv, reb_succ, true))
+	if await e.ask_yes("R", "R2-D2 è con %s: scarti l'anello per rendere vuoto un dado dell'Impero?" % RB.leader_it(who), "use_r2d2", "Sì", "No", {"ai_best": useful}):
+		st.leaders[who]["ring"] = ""
+		if imp_roll[best] is Dictionary:
+			imp_roll[best]["v"] = 0
+		else:
+			imp_roll[best] = 0
+		say("R2-D2 sabota i piani imperiali: un dado diventa vuoto.")
+		e.emit_fx("beep", {})
 	return imp_roll
+
+
+## Vince l'Impero con questi successi? (in missione vince chi tenta solo superando l'opposizione;
+## qui conta solo se lo scarto cambia l'esito, quindi basta il confronto stretto)
+func f_imp_wins(imp: int, reb: int, _x: bool) -> bool:
+	return imp > reb
 
 
 func _after_success(f: String, c: String, tgt: Dictionary, ls: Array) -> void:

@@ -84,6 +84,9 @@ func possible_bases() -> Array:
 			continue
 		if s in st.known["I_not_base"] or s in st.probes:
 			continue
+		# truppe imperiali nel sistema e base non rivelata: lì la base non c'è
+		if st.has_units(s, "I", "terra"):
+			continue
 		if st.flags.has("base_region") and RB.region_of(s) != int(st.flags["base_region"]):
 			continue
 		if st.flags.has("three_systems") and not s in st.flags["three_systems"]:
@@ -510,7 +513,11 @@ func _oppose(f: String, req: Dictionary):
 			continue
 		var sc := float(st.leader_skill(v, sk)) if sk != "" and sk != "<null>" else 1.0
 		# non sprecare leader con buoni valori tattici se non serve
-		sc -= 0.15 * (int(RB.LEADERS[v]["spazio"]) + int(RB.LEADERS[v]["terra"]))
+		var tac := int(RB.LEADERS[v]["spazio"]) + int(RB.LEADERS[v]["terra"])
+		sc -= 0.15 * tac
+		# l'Impero a caccia della base tiene i leader tattici per le attivazioni
+		if f == "I" and not st.base_revealed and level >= 1 and tac > 0 and mission_value("R", c) < 3.0 and _tactical_in_pool("I") <= 2:
+			continue
 		if sc > bv:
 			bv = sc
 			best = v
@@ -524,6 +531,14 @@ func _oppose(f: String, req: Dictionary):
 			if v != "":
 				return v
 	return best
+
+
+func _tactical_in_pool(f: String) -> int:
+	var n := 0
+	for x in st.leader_pool(f):
+		if RB.has_tactics(x):
+			n += 1
+	return n
 
 
 func _best_combat_leader(f: String, vals: Array):

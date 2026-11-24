@@ -46,6 +46,8 @@ var _drag_moved := 0.0
 var _pan := false
 var _touches := {}
 var _pinch_d := 0.0
+var _pinch_ang := 0.0
+var _pinch_mid := Vector2.ZERO
 var _t := 0.0
 
 
@@ -818,9 +820,19 @@ func _unhandled_input(ev: InputEvent) -> void:
 		if _touches.size() >= 2:
 			var ks := _touches.keys()
 			var d2: float = (_touches[ks[0]] as Vector2).distance_to(_touches[ks[1]])
+			var a: Vector2 = _touches[ks[0]]
+			var b: Vector2 = _touches[ks[1]]
+			var mid := (a + b) / 2.0
+			var ang := (b - a).angle()
 			if _pinch_d > 0.0:
+				# pizzico: zoom; due dita che ruotano: rotazione; due dita che scorrono: spostamento
 				_dist_t = clampf(_dist_t * _pinch_d / maxf(1.0, d2), 4.0, 34.0)
+				if not flat:
+					_yaw_t += rad_to_deg(wrapf(ang - _pinch_ang, -PI, PI))
+				_pan_by(mid - _pinch_mid)
 			_pinch_d = d2
+			_pinch_ang = ang
+			_pinch_mid = mid
 			_drag_moved = 99.0
 	elif ev is InputEventMagnifyGesture:
 		zoom(1.0 / (ev as InputEventMagnifyGesture).factor)

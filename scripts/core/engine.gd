@@ -505,6 +505,7 @@ func _assignment_phase() -> void:
 	st.assign = {"R": [], "I": []}
 	st.flags.erase("misdirection")
 	st.flags.erase("blindside")
+	st.flags.erase("public_support")
 	for f in ["R", "I"]:
 		await _assign_for(f)
 		if _over():
@@ -658,7 +659,11 @@ func move_sources(f: String, target: String) -> Array:
 	for s in out:
 		if s == target:
 			continue
-		if not st.leaders_at(s, f).is_empty():
+		var blockers := st.leaders_at(s, f)
+		# «Sostegno pubblico»: quel leader non blocca le unità del suo sistema in questo round
+		if st.flags.has("public_support"):
+			blockers.erase(st.flags["public_support"])
+		if not blockers.is_empty():
 			continue  # un leader della propria fazione blocca le unità
 		var ok := false
 		for id in st.units_at(s, f):
